@@ -11,16 +11,19 @@
 
 - [分类总览](#分类总览)
 - [论文与项目](#论文与项目)
-- [Planning / Decomposition for Story Generation](#planning)
-- [Agent Collaboration for Story Writing](#agent-collaboration)
-- [Sandbox / World Simulation Narrative Generation](#sandbox-world-simulation)
-- [Multimodal Story Generation (Text-Image/Video/Comic/Audio)](#multimodal-story-generation)
-- [Memory & Long-Context Coherence](#memory-long-context)
-- [Consistency / Controllability / Constraint Following](#consistency-controllability)
-- [Refinement / Self-Critique / Iterative Editing](#refinement-self-critique)
-- [Evaluation / Benchmarks / Metrics](#evaluation-benchmarks)
-- [Datasets / Surveys / Resources](#datasets-surveys)
-- [Open-source Projects (No Paper Required)](#open-source-projects)
+  - 生成方法
+    - [Planning / Decomposition for Story Generation](#planning)
+    - [Agent Collaboration for Story Writing](#agent-collaboration)
+    - [Sandbox / World Simulation Narrative Generation](#sandbox-world-simulation)
+    - [Multimodal Story Generation (Text-Image/Video/Comic/Audio)](#multimodal-story-generation)
+  - 质量控制与迭代
+    - [Memory & Long-Context Coherence](#memory-long-context)
+    - [Consistency / Controllability / Constraint Following](#consistency-controllability)
+    - [Refinement / Self-Critique / Iterative Editing](#refinement-self-critique)
+  - 评测与资源
+    - [Evaluation / Benchmarks / Metrics](#evaluation-benchmarks)
+    - [Datasets / Surveys / Resources](#datasets-surveys)
+    - [Open-source Projects (No Paper Required)](#open-source-projects)
 - [维护说明](#维护说明)
 - [引用](#引用)
 

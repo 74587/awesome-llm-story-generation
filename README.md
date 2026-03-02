@@ -11,16 +11,19 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 
 - [Category Overview](#category-overview)
 - [Papers and Projects](#papers-and-projects)
-- [Planning / Decomposition for Story Generation](#planning)
-- [Agent Collaboration for Story Writing](#agent-collaboration)
-- [Sandbox / World Simulation Narrative Generation](#sandbox-world-simulation)
-- [Multimodal Story Generation (Text-Image/Video/Comic/Audio)](#multimodal-story-generation)
-- [Memory & Long-Context Coherence](#memory-long-context)
-- [Consistency / Controllability / Constraint Following](#consistency-controllability)
-- [Refinement / Self-Critique / Iterative Editing](#refinement-self-critique)
-- [Evaluation / Benchmarks / Metrics](#evaluation-benchmarks)
-- [Datasets / Surveys / Resources](#datasets-surveys)
-- [Open-source Projects (No Paper Required)](#open-source-projects)
+  - Story Generation Methods
+    - [Planning / Decomposition for Story Generation](#planning)
+    - [Agent Collaboration for Story Writing](#agent-collaboration)
+    - [Sandbox / World Simulation Narrative Generation](#sandbox-world-simulation)
+    - [Multimodal Story Generation (Text-Image/Video/Comic/Audio)](#multimodal-story-generation)
+  - Quality, Control, and Iteration
+    - [Memory & Long-Context Coherence](#memory-long-context)
+    - [Consistency / Controllability / Constraint Following](#consistency-controllability)
+    - [Refinement / Self-Critique / Iterative Editing](#refinement-self-critique)
+  - Evaluation and Resources
+    - [Evaluation / Benchmarks / Metrics](#evaluation-benchmarks)
+    - [Datasets / Surveys / Resources](#datasets-surveys)
+    - [Open-source Projects (No Paper Required)](#open-source-projects)
 - [Maintenance Notes](#maintenance-notes)
 - [Citation](#citation)
 
