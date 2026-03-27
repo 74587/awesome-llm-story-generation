@@ -2,9 +2,9 @@
 
 聚焦 2022 年以来的故事/小说/剧本生成研究，按方法分类，优先保证论文链接与信息准确。
 
-- 当前条目数: **134**
+- 当前条目数: **138**
 - 分类数量: **10**
-- 最近核对日期: **2026-03-16**
+- 最近核对日期: **2026-03-27**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 ## 目录
@@ -31,14 +31,14 @@
 
 | 分类 | 条目数 |
 | --- | ---: |
-| Planning / Decomposition for Story Generation | 15 |
+| Planning / Decomposition for Story Generation | 16 |
 | Agent Collaboration for Story Writing | 4 |
 | Sandbox / World Simulation Narrative Generation | 9 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 9 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 10 |
 | Memory & Long-Context Coherence | 9 |
-| Consistency / Controllability / Constraint Following | 18 |
+| Consistency / Controllability / Constraint Following | 19 |
 | Refinement / Self-Critique / Iterative Editing | 12 |
-| Evaluation / Benchmarks / Metrics | 26 |
+| Evaluation / Benchmarks / Metrics | 27 |
 | Datasets / Surveys / Resources | 22 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -51,6 +51,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| BiT-MCTS: A Theme-based Bidirectional MCTS Approach to Chinese Fiction Generation | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.14410) | - | - | - | planning, narrative-structure |
 | DPWriter: Reinforcement Learning with Diverse Planning Branching for Creative Writing | ArXiv 2026 (arXiv preprint) | 2026-01 | [arXiv](https://arxiv.org/abs/2601.09609) | - | - | - | planning, narrative-structure |
 | Codified Foreshadowing-Payoff Text Generation | ArXiv 2026 (arXiv preprint) | 2026-01 | [arXiv](https://arxiv.org/abs/2601.07033) | - | - | - | planning, narrative-structure |
 | SceneDecorator: Towards Scene-Oriented Story Generation with Scene Planning and Scene Consistency | ArXiv 2025 (arXiv preprint) | 2025-10 | [arXiv](https://arxiv.org/abs/2510.22994) | - | - | - | planning, narrative-structure |
@@ -97,6 +98,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Directing the Narrative: A Finetuning Method for Controlling Coherence and Style in Story Generation | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.17295) | - | - | - | multimodal, visual-story |
 | EmoStory: Emotion-Aware Story Generation | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.10349) | - | - | - | multimodal, visual-story |
 | PlayWrite: A Multimodal System for AI Supported Narrative Co-Authoring Through Play in XR | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.02366) | - | - | - | multimodal, co-creation |
 | StoryComposerAI: A Multimodal Story Co-Creation Tool for Amateur Writers | CHI EA 2026 (Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems) | 2026-02 | [arXiv](https://arxiv.org/abs/2602.21486) | - | - | - | multimodal, co-creation |
@@ -127,6 +129,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Preconditioned Test-Time Adaptation for Out-of-Distribution Debiasing in Narrative Generation | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.13683) | - | - | - | controllability, consistency |
 | TaleFrame: An Interactive Story Generation System with Fine-Grained Control and Large Language Models | ArXiv 2025 (arXiv preprint) | 2025-12 | [arXiv](https://arxiv.org/abs/2512.02402) | - | - | - | controllability, interactive |
 | SCORE: Story Coherence and Retrieval Enhancement for AI Narratives | ArXiv 2025 (arXiv preprint) | 2025-03 | [arXiv](https://arxiv.org/abs/2503.23512) | - | - | ![citation](https://img.shields.io/badge/citation-17-0A66C2) | controllability, retrieval |
 | Whose story is it? Personalizing story generation by inferring author styles | ArXiv 2025 (arXiv preprint) | 2025-02 | [arXiv](https://arxiv.org/abs/2502.13028) | - | - | ![citation](https://img.shields.io/badge/citation-1-0A66C2) | controllability, consistency |
@@ -169,6 +172,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Creative Convergence or Imitation? Genre-Specific Homogeneity in LLM-Generated Chinese Literature | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.14430) | - | - | - | benchmark, evaluation |
 | Lost in Stories: Consistency Bugs in Long Story Generation by LLMs | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.05890) | [Project](https://picrew.github.io/constory-bench.github.io/) | [Code](https://github.com/Picrew/ConStory-Bench) | - | benchmark, evaluation |
 | LLMs Exhibit Significantly Lower Uncertainty in Creative Writing Than Professional Writers | ArXiv 2026 (arXiv preprint) | 2026-02 | [arXiv](https://arxiv.org/abs/2602.16162) | - | - | - | benchmark, evaluation |
 | Evaluation Framework for AI Creativity: A Case Study Based on Story Generation | ArXiv 2026 (arXiv preprint) | 2026-01 | [arXiv](https://arxiv.org/abs/2601.03698) | - | - | - | benchmark, evaluation |
