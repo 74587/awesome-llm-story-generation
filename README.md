@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **165**
+- Total entries: **167**
 - Categories: **10**
-- Last verified: **2026-05-07**
+- Last verified: **2026-05-11**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -38,7 +38,7 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Memory & Long-Context Coherence | 12 |
 | Consistency / Controllability / Constraint Following | 21 |
 | Refinement / Self-Critique / Iterative Editing | 13 |
-| Evaluation / Benchmarks / Metrics | 36 |
+| Evaluation / Benchmarks / Metrics | 38 |
 | Datasets / Surveys / Resources | 22 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -190,6 +190,8 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| SAGE: Hierarchical LLM-Based Literary Evaluation through Ontology-Grounded Interpretive Dimensions | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.07102) | - | - | - | benchmark, evaluation |
+| StoryAlign: Evaluating and Training Reward Models for Story Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.04831) | - | - | - | benchmark, evaluation |
 | SemEval-2026 Task 4: Narrative Story Similarity and Narrative Representation Learning | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.21782) | - | - | - | benchmark, evaluation |
 | ATANT v1.1: Positioning Continuity Evaluation Against Memory, Long-Context, and Agentic-Memory Benchmarks | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.10981) | - | - | - | benchmark, evaluation |
 | Attention Flows: Tracing LLM Conceptual Engagement via Story Summaries | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.06416) | - | - | - | benchmark, dataset |

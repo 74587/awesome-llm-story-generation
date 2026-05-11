@@ -2,9 +2,9 @@
 
 聚焦 2022 年以来的故事/小说/剧本生成研究，按方法分类，优先保证论文链接与信息准确。
 
-- 当前条目数: **165**
+- 当前条目数: **167**
 - 分类数量: **10**
-- 最近核对日期: **2026-05-07**
+- 最近核对日期: **2026-05-11**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 ## 目录
@@ -38,7 +38,7 @@
 | Memory & Long-Context Coherence | 12 |
 | Consistency / Controllability / Constraint Following | 21 |
 | Refinement / Self-Critique / Iterative Editing | 13 |
-| Evaluation / Benchmarks / Metrics | 36 |
+| Evaluation / Benchmarks / Metrics | 38 |
 | Datasets / Surveys / Resources | 22 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -190,6 +190,8 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| SAGE: Hierarchical LLM-Based Literary Evaluation through Ontology-Grounded Interpretive Dimensions | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.07102) | - | - | - | benchmark, evaluation |
+| StoryAlign: Evaluating and Training Reward Models for Story Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.04831) | - | - | - | benchmark, evaluation |
 | SemEval-2026 Task 4: Narrative Story Similarity and Narrative Representation Learning | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.21782) | - | - | - | benchmark, evaluation |
 | ATANT v1.1: Positioning Continuity Evaluation Against Memory, Long-Context, and Agentic-Memory Benchmarks | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.10981) | - | - | - | benchmark, evaluation |
 | Attention Flows: Tracing LLM Conceptual Engagement via Story Summaries | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.06416) | - | - | - | benchmark, dataset |
