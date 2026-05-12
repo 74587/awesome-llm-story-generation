@@ -2,9 +2,9 @@
 
 聚焦 2022 年以来的故事/小说/剧本生成研究，按方法分类，优先保证论文链接与信息准确。
 
-- 当前条目数: **167**
+- 当前条目数: **170**
 - 分类数量: **10**
-- 最近核对日期: **2026-05-11**
+- 最近核对日期: **2026-05-12**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 ## 目录
@@ -33,12 +33,12 @@
 | --- | ---: |
 | Planning / Decomposition for Story Generation | 18 |
 | Agent Collaboration for Story Writing | 5 |
-| Sandbox / World Simulation Narrative Generation | 10 |
+| Sandbox / World Simulation Narrative Generation | 11 |
 | Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 18 |
 | Memory & Long-Context Coherence | 12 |
 | Consistency / Controllability / Constraint Following | 21 |
 | Refinement / Self-Critique / Iterative Editing | 13 |
-| Evaluation / Benchmarks / Metrics | 38 |
+| Evaluation / Benchmarks / Metrics | 40 |
 | Datasets / Surveys / Resources | 22 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -86,6 +86,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| A Reflective Storytelling Agent for Older Adults: Integrating Argumentation Schemes and Argument Mining in LLM-Based Personalised Narratives | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.10531) | - | - | - | sandbox, interactive |
 | EvoSpark: Endogenous Interactive Agent Societies for Unified Long-Horizon Narrative Evolution | ACL 2026 (Annual Meeting of the Association for Computational Linguistics) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.12776) | - | - | - | sandbox, simulation |
 | StoryBox: Collaborative Multi-Agent Simulation for Hybrid Bottom-Up Long-Form Story Generation Using Large Language Models | ArXiv 2025 (arXiv preprint) | 2025-10 | [arXiv](https://arxiv.org/abs/2510.11618) | [Project](https://storyboxproject.github.io) | - | - | sandbox, simulation |
 | OPEN-THEATRE: An Open-Source Toolkit for LLM-based Interactive Drama | ArXiv 2025 (arXiv preprint) | 2025-09 | [arXiv](https://arxiv.org/abs/2509.16713) | - | - | - | sandbox, interactive |
@@ -190,6 +191,8 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Narrative Landscape: Mapping Narrative Dispositions Across LLMs | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.08742) | - | - | - | benchmark, evaluation |
+| NARRA-Gym for Evaluating Interactive Narrative Agents | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.08503) | - | - | - | benchmark, evaluation |
 | SAGE: Hierarchical LLM-Based Literary Evaluation through Ontology-Grounded Interpretive Dimensions | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.07102) | - | - | - | benchmark, evaluation |
 | StoryAlign: Evaluating and Training Reward Models for Story Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.04831) | - | - | - | benchmark, evaluation |
 | SemEval-2026 Task 4: Narrative Story Similarity and Narrative Representation Learning | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.21782) | - | - | - | benchmark, evaluation |
