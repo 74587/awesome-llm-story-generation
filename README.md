@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **170**
+- Total entries: **174**
 - Categories: **10**
-- Last verified: **2026-05-12**
+- Last verified: **2026-05-19**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -31,15 +31,15 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 
 | Category | Entries |
 | --- | ---: |
-| Planning / Decomposition for Story Generation | 18 |
+| Planning / Decomposition for Story Generation | 19 |
 | Agent Collaboration for Story Writing | 5 |
 | Sandbox / World Simulation Narrative Generation | 11 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 18 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 19 |
 | Memory & Long-Context Coherence | 12 |
-| Consistency / Controllability / Constraint Following | 21 |
+| Consistency / Controllability / Constraint Following | 22 |
 | Refinement / Self-Critique / Iterative Editing | 13 |
 | Evaluation / Benchmarks / Metrics | 40 |
-| Datasets / Surveys / Resources | 22 |
+| Datasets / Surveys / Resources | 23 |
 | Open-source Projects (No Paper Required) | 10 |
 
 ## Papers and Projects
@@ -51,6 +51,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Towards Human-Level Book-Writing Capability | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.17064) | - | - | - | planning, narrative-structure |
 | Planning Beyond Text: Graph-based Reasoning for Complex Narrative Generation | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.21253) | - | - | - | planning, narrative-structure |
 | Narrix: Remixing Narrative Strategies from Examples for Story Writing | CHI 2026 (Conference on Human Factors in Computing Systems) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.07643) | - | - | - | planning, narrative-structure |
 | BiT-MCTS: A Theme-based Bidirectional MCTS Approach to Chinese Fiction Generation | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.14410) | - | - | - | planning, narrative-structure |
@@ -103,6 +104,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Advancing Narrative Long Video Generation via Training-Free Identity-Aware Memory | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.18733) | - | - | - | multimodal, video-story |
 | Co-Director: Agentic Generative Video Storytelling | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.24842) | - | - | - | multimodal, video-story |
 | CineAGI: Character-Consistent Movie Creation through LLM-Orchestrated Multi-Modal Generation and Cross-Scene Integration | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.23579) | - | - | - | multimodal, video-story |
 | CANVAS: Continuity-Aware Narratives via Visual Agentic Storyboarding | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.13452) | - | - | - | multimodal, visual-story |
@@ -145,6 +147,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Children's English Reading Story Generation via Supervised Fine-Tuning of Compact LLMs with Controllable Difficulty and Safety | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.13709) | - | - | - | controllability, consistency |
 | UniCreative: Unifying Long-form Logic and Short-form Sparkle via Reference-Free Reinforcement Learning | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.05517) | - | - | - | controllability, consistency |
 | Noise Steering for Controlled Text Generation: Improving Diversity and Reading-Level Fidelity in Arabic Educational Story Generation | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.03380) | - | - | - | controllability, consistency |
 | Preconditioned Test-Time Adaptation for Out-of-Distribution Debiasing in Narrative Generation | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.13683) | - | - | - | controllability, consistency |
@@ -237,6 +240,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| StereoTales: A Multilingual Framework for Open-Ended Stereotype Discovery in LLMs | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.10442) | - | - | - | dataset, dataset |
 | Narrative Theory-Driven LLM Methods for Automatic Story Generation and Understanding: A Survey | ArXiv 2026 (arXiv preprint) | 2026-02 | [arXiv](https://arxiv.org/abs/2602.15851) | - | - | - | dataset, survey |
 | MUSE: A Multi-agent Framework for Unconstrained Story Envisioning via Closed-Loop Cognitive Orchestration | ArXiv 2026 (arXiv preprint) | 2026-02 | [arXiv](https://arxiv.org/abs/2602.03028) | - | - | - | dataset, resource |
 | StoryWriter: A Multi-Agent Framework for Long Story Generation | ArXiv 2025 (arXiv preprint) | 2025-06 | [arXiv](https://arxiv.org/abs/2506.16445) | - | - | - | dataset, resource |
