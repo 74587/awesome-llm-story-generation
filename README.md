@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **174**
+- Total entries: **178**
 - Categories: **10**
-- Last verified: **2026-05-19**
+- Last verified: **2026-05-21**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -34,7 +34,7 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Planning / Decomposition for Story Generation | 19 |
 | Agent Collaboration for Story Writing | 5 |
 | Sandbox / World Simulation Narrative Generation | 11 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 19 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 23 |
 | Memory & Long-Context Coherence | 12 |
 | Consistency / Controllability / Constraint Following | 22 |
 | Refinement / Self-Critique / Iterative Editing | 13 |
@@ -104,7 +104,12 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| AttriStory: Fine-grained Attribute Realization for Visual Storytelling with Diffusion Models | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.20777) | [Project](https://manogna-s.github.io/attristory/) | - | - | multimodal, visual-story |
+| TombWriter: Scaffolding Story Archeology through Beat-Level Interaction in Human-AI Co-Writing | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.19681) | - | - | - | multimodal, co-creation |
 | Advancing Narrative Long Video Generation via Training-Free Identity-Aware Memory | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.18733) | - | - | - | multimodal, video-story |
+| Soap2Soap: Long Cinematic Video Remaking via Multi-Agent Collaboration | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.17423) | - | - | - | multimodal, video-story |
+| RealDiffusion: Physics-informed Attention for Multi-character Storybook Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.11927) | - | [Code](https://github.com/ShmilyQi-CN/RealDiffusion) | - | multimodal, visual-story |
+| AuDirector: A Self-Reflective Closed-Loop Framework for Immersive Audio Storytelling | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.11866) | [Project](https://anonymous-itsh.github.io/) | - | - | multimodal, audio-story |
 | Co-Director: Agentic Generative Video Storytelling | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.24842) | - | - | - | multimodal, video-story |
 | CineAGI: Character-Consistent Movie Creation through LLM-Orchestrated Multi-Modal Generation and Cross-Scene Integration | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.23579) | - | - | - | multimodal, video-story |
 | CANVAS: Continuity-Aware Narratives via Visual Agentic Storyboarding | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.13452) | - | - | - | multimodal, visual-story |
