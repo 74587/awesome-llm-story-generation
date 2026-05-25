@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **178**
+- Total entries: **185**
 - Categories: **10**
-- Last verified: **2026-05-21**
+- Last verified: **2026-05-25**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -33,12 +33,12 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | --- | ---: |
 | Planning / Decomposition for Story Generation | 19 |
 | Agent Collaboration for Story Writing | 5 |
-| Sandbox / World Simulation Narrative Generation | 11 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 23 |
+| Sandbox / World Simulation Narrative Generation | 12 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 28 |
 | Memory & Long-Context Coherence | 12 |
 | Consistency / Controllability / Constraint Following | 22 |
 | Refinement / Self-Critique / Iterative Editing | 13 |
-| Evaluation / Benchmarks / Metrics | 40 |
+| Evaluation / Benchmarks / Metrics | 41 |
 | Datasets / Surveys / Resources | 23 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -87,6 +87,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| A Generative AI Driven Interactive Narrative Serious Game for Stress Relief and Its Randomized Controlled Pilot Study | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.11562) | - | - | - | sandbox, interactive |
 | A Reflective Storytelling Agent for Older Adults: Integrating Argumentation Schemes and Argument Mining in LLM-Based Personalised Narratives | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.10531) | - | - | - | sandbox, interactive |
 | EvoSpark: Endogenous Interactive Agent Societies for Unified Long-Horizon Narrative Evolution | ACL 2026 (Annual Meeting of the Association for Computational Linguistics) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.12776) | - | - | - | sandbox, simulation |
 | StoryBox: Collaborative Multi-Agent Simulation for Hybrid Bottom-Up Long-Form Story Generation Using Large Language Models | ArXiv 2025 (arXiv preprint) | 2025-10 | [arXiv](https://arxiv.org/abs/2510.11618) | [Project](https://storyboxproject.github.io) | - | - | sandbox, simulation |
@@ -104,10 +105,14 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| DrawVideo: Generating Long Video from Storyboard Keyframe Sketches | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.23508) | - | - | - | multimodal, video-story |
+| S2ED: From Story to Executable Descriptions for Consistency-Aware Story Illustration | ICME 2026 (IEEE International Conference on Multimedia and Expo) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.22448) | - | - | - | multimodal, visual-story |
+| One Sentence, One Drama: Personalized Short-Form Drama Generation via Multi-Agent Systems | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.22144) | - | - | - | multimodal, screenplay |
 | AttriStory: Fine-grained Attribute Realization for Visual Storytelling with Diffusion Models | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.20777) | [Project](https://manogna-s.github.io/attristory/) | - | - | multimodal, visual-story |
 | TombWriter: Scaffolding Story Archeology through Beat-Level Interaction in Human-AI Co-Writing | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.19681) | - | - | - | multimodal, co-creation |
 | Advancing Narrative Long Video Generation via Training-Free Identity-Aware Memory | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.18733) | - | - | - | multimodal, video-story |
 | Soap2Soap: Long Cinematic Video Remaking via Multi-Agent Collaboration | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.17423) | - | - | - | multimodal, video-story |
+| CausalCine: Real-Time Autoregressive Generation for Multi-Shot Video Narratives | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.12496) | [Project](https://yihao-meng.github.io/CausalCine/) | - | - | multimodal, video-story |
 | RealDiffusion: Physics-informed Attention for Multi-character Storybook Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.11927) | - | [Code](https://github.com/ShmilyQi-CN/RealDiffusion) | - | multimodal, visual-story |
 | AuDirector: A Self-Reflective Closed-Loop Framework for Immersive Audio Storytelling | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.11866) | [Project](https://anonymous-itsh.github.io/) | - | - | multimodal, audio-story |
 | Co-Director: Agentic Generative Video Storytelling | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.24842) | - | - | - | multimodal, video-story |
@@ -199,6 +204,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.15199) | [Project](https://catherine-r-he.github.io/EntityBench/) | [Code](https://github.com/Catherine-R-He/EntityBench) | - | benchmark, video-story |
 | Narrative Landscape: Mapping Narrative Dispositions Across LLMs | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.08742) | - | - | - | benchmark, evaluation |
 | NARRA-Gym for Evaluating Interactive Narrative Agents | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.08503) | - | - | - | benchmark, evaluation |
 | SAGE: Hierarchical LLM-Based Literary Evaluation through Ontology-Grounded Interpretive Dimensions | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.07102) | - | - | - | benchmark, evaluation |
