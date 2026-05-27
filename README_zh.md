@@ -2,9 +2,9 @@
 
 聚焦 2022 年以来的故事/小说/剧本生成研究，按方法分类，优先保证论文链接与信息准确。
 
-- 当前条目数: **185**
+- 当前条目数: **190**
 - 分类数量: **10**
-- 最近核对日期: **2026-05-25**
+- 最近核对日期: **2026-05-27**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 ## 目录
@@ -33,12 +33,12 @@
 | --- | ---: |
 | Planning / Decomposition for Story Generation | 19 |
 | Agent Collaboration for Story Writing | 5 |
-| Sandbox / World Simulation Narrative Generation | 12 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 28 |
+| Sandbox / World Simulation Narrative Generation | 13 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 29 |
 | Memory & Long-Context Coherence | 12 |
 | Consistency / Controllability / Constraint Following | 22 |
-| Refinement / Self-Critique / Iterative Editing | 13 |
-| Evaluation / Benchmarks / Metrics | 41 |
+| Refinement / Self-Critique / Iterative Editing | 14 |
+| Evaluation / Benchmarks / Metrics | 43 |
 | Datasets / Surveys / Resources | 23 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -87,6 +87,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| World-State Transformations for Neuro-symbolic Interactive Storytelling | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.24719) | - | - | - | sandbox, interactive |
 | A Generative AI Driven Interactive Narrative Serious Game for Stress Relief and Its Randomized Controlled Pilot Study | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.11562) | - | - | - | sandbox, interactive |
 | A Reflective Storytelling Agent for Older Adults: Integrating Argumentation Schemes and Argument Mining in LLM-Based Personalised Narratives | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.10531) | - | - | - | sandbox, interactive |
 | EvoSpark: Endogenous Interactive Agent Societies for Unified Long-Horizon Narrative Evolution | ACL 2026 (Annual Meeting of the Association for Computational Linguistics) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.12776) | - | - | - | sandbox, simulation |
@@ -105,6 +106,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| ReCA: Multi-Shot Long Video Extrapolation via Recursive Context Allocation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26525) | [Project](https://reca.vmv.re) | - | - | multimodal, video-story |
 | DrawVideo: Generating Long Video from Storyboard Keyframe Sketches | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.23508) | - | - | - | multimodal, video-story |
 | S2ED: From Story to Executable Descriptions for Consistency-Aware Story Illustration | ICME 2026 (IEEE International Conference on Multimedia and Expo) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.22448) | - | - | - | multimodal, visual-story |
 | One Sentence, One Drama: Personalized Short-Form Drama Generation via Multi-Agent Systems | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.22144) | - | - | - | multimodal, screenplay |
@@ -185,6 +187,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| DTO: a Differentiable Training Objective for Effective Counterfactual Story Rewriting | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.24885) | - | - | - | refinement, revision |
 | R2-Write: Reflection and Revision for Open-Ended Writing with Deep Reasoning | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.03004) | - | - | - | refinement, revision |
 | LLM Review: Enhancing Creative Writing via Blind Peer Review Feedback | ArXiv 2026 (arXiv preprint) | 2026-01 | [arXiv](https://arxiv.org/abs/2601.08003) | - | - | - | refinement, revision |
 | All Stories Are One Story: Emotional Arc Guided Procedural Game Level Generation | ArXiv 2025 (arXiv preprint) | 2025-08 | [arXiv](https://arxiv.org/abs/2508.02132) | - | - | - | refinement, revision |
@@ -204,6 +207,8 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Elias in the Lighthouse, Again? Diagnosing Low Diversity in LLM Stories | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26492) | - | - | - | benchmark, evaluation |
+| QUIET: A Multi-Blank Cascaded Story Cloze Benchmark for LLM Creative Generation Capability | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.25955) | - | - | - | benchmark, evaluation |
 | EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.15199) | [Project](https://catherine-r-he.github.io/EntityBench/) | [Code](https://github.com/Catherine-R-He/EntityBench) | - | benchmark, video-story |
 | Narrative Landscape: Mapping Narrative Dispositions Across LLMs | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.08742) | - | - | - | benchmark, evaluation |
 | NARRA-Gym for Evaluating Interactive Narrative Agents | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.08503) | - | - | - | benchmark, evaluation |
