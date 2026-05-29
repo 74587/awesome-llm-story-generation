@@ -2,9 +2,9 @@
 
 聚焦 2022 年以来的故事/小说/剧本生成研究，按方法分类，优先保证论文链接与信息准确。
 
-- 当前条目数: **190**
+- 当前条目数: **199**
 - 分类数量: **10**
-- 最近核对日期: **2026-05-27**
+- 最近核对日期: **2026-05-29**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 ## 目录
@@ -32,14 +32,14 @@
 | 分类 | 条目数 |
 | --- | ---: |
 | Planning / Decomposition for Story Generation | 19 |
-| Agent Collaboration for Story Writing | 5 |
+| Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 13 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 29 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 31 |
 | Memory & Long-Context Coherence | 12 |
 | Consistency / Controllability / Constraint Following | 22 |
-| Refinement / Self-Critique / Iterative Editing | 14 |
-| Evaluation / Benchmarks / Metrics | 43 |
-| Datasets / Surveys / Resources | 23 |
+| Refinement / Self-Critique / Iterative Editing | 15 |
+| Evaluation / Benchmarks / Metrics | 45 |
+| Datasets / Surveys / Resources | 26 |
 | Open-source Projects (No Paper Required) | 10 |
 
 ## 论文与项目
@@ -76,6 +76,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Improving Collaborative Storytelling with a Multi-Agent Framework Based on Large Language Models | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.29625) | - | - | - | multi-agent, collaboration |
 | Collaborative Multi-Agent Scripts Generation for Enhancing Imperfect-Information Reasoning in Murder Mystery Games | ACL Findings 2026 (Findings of ACL) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.11741) | - | - | - | multi-agent, collaboration |
 | A Cognitive Writing Perspective for Constrained Long-Form Text Generation | ArXiv 2025 (arXiv preprint) | 2025-02 | [arXiv](https://arxiv.org/abs/2502.12568) | - | [Code](https://github.com/KaiyangWan/CogWriter) | ![citation](https://img.shields.io/badge/citation-1-0A66C2) | multi-agent, collaboration |
 | Agents' Room: Narrative Generation through Multi-step Collaboration | ICLR 2025 (International Conference on Learning Representations) | 2024-10 | [arXiv](https://arxiv.org/abs/2410.02603) | - | - | ![citation](https://img.shields.io/badge/citation-16-0A66C2) | multi-agent, collaboration |
@@ -106,6 +107,8 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| MangaFlow: An End-to-End Agentic Framework for Controllable Story to Manga Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28173) | - | - | - | multimodal, visual-story |
+| SmartDirector: Keyframe-Conditioned Cinematic Video Generation with Narrative Pacing Control | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27891) | - | - | - | multimodal, video-story |
 | ReCA: Multi-Shot Long Video Extrapolation via Recursive Context Allocation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26525) | [Project](https://reca.vmv.re) | - | - | multimodal, video-story |
 | DrawVideo: Generating Long Video from Storyboard Keyframe Sketches | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.23508) | - | - | - | multimodal, video-story |
 | S2ED: From Story to Executable Descriptions for Consistency-Aware Story Illustration | ICME 2026 (IEEE International Conference on Multimedia and Expo) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.22448) | - | - | - | multimodal, visual-story |
@@ -187,6 +190,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| StoryLens: Preference-Aligned Story Rewriting via Context-Aware Narrative Enrichment | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28073) | - | - | - | refinement, revision |
 | DTO: a Differentiable Training Objective for Effective Counterfactual Story Rewriting | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.24885) | - | - | - | refinement, revision |
 | R2-Write: Reflection and Revision for Open-Ended Writing with Deep Reasoning | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.03004) | - | - | - | refinement, revision |
 | LLM Review: Enhancing Creative Writing via Blind Peer Review Feedback | ArXiv 2026 (arXiv preprint) | 2026-01 | [arXiv](https://arxiv.org/abs/2601.08003) | - | - | - | refinement, revision |
@@ -207,6 +211,8 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| DirectorBench: Diagnosing Long-Form Video Generation with Personalized Multi-Agent Evaluation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.30090) | - | - | - | benchmark, video-story |
+| Narrative Flattening: How Post-Training Compresses Thematic, Affective, and Stylistic Variation in LLM Fiction | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27878) | - | - | - | benchmark, evaluation |
 | Elias in the Lighthouse, Again? Diagnosing Low Diversity in LLM Stories | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26492) | - | - | - | benchmark, evaluation |
 | QUIET: A Multi-Blank Cascaded Story Cloze Benchmark for LLM Creative Generation Capability | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.25955) | - | - | - | benchmark, evaluation |
 | EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.15199) | [Project](https://catherine-r-he.github.io/EntityBench/) | [Code](https://github.com/Catherine-R-He/EntityBench) | - | benchmark, video-story |
@@ -256,6 +262,9 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| GraphLit: Learning Text-Enriched Dynamic Character Network Representations for Literary Study | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28643) | - | - | - | dataset, resource |
+| LitSeg: Narrative-Aware Document Segmentation for Literary RAG | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27156) | - | - | - | dataset, resource |
+| Manga109-v2026: Revisiting Manga109 Annotations for Modern Manga Understanding | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.21182) | [Project](https://manga109.github.io/manga109-project-website/en/) | - | - | dataset, dataset |
 | StereoTales: A Multilingual Framework for Open-Ended Stereotype Discovery in LLMs | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.10442) | - | - | - | dataset, dataset |
 | Narrative Theory-Driven LLM Methods for Automatic Story Generation and Understanding: A Survey | ArXiv 2026 (arXiv preprint) | 2026-02 | [arXiv](https://arxiv.org/abs/2602.15851) | - | - | - | dataset, survey |
 | MUSE: A Multi-agent Framework for Unconstrained Story Envisioning via Closed-Loop Cognitive Orchestration | ArXiv 2026 (arXiv preprint) | 2026-02 | [arXiv](https://arxiv.org/abs/2602.03028) | - | - | - | dataset, resource |
