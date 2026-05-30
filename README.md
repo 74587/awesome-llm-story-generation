@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **199**
+- Total entries: **201**
 - Categories: **10**
-- Last verified: **2026-05-29**
+- Last verified: **2026-05-30**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -35,10 +35,10 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 13 |
 | Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 31 |
-| Memory & Long-Context Coherence | 12 |
+| Memory & Long-Context Coherence | 13 |
 | Consistency / Controllability / Constraint Following | 22 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 45 |
+| Evaluation / Benchmarks / Metrics | 46 |
 | Datasets / Surveys / Resources | 26 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -144,6 +144,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Tournament-GRPO: Group-Wise Tournament Rewards for Reinforcement Learning in Open-Ended Long-Form Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26958) | - | - | - | long-context, generation |
 | On Stable Long-Form Generation: Benchmarking and Mitigating Length Volatility | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.01357) | - | - | - | long-context, coherence |
 | Think Before you Write: QA-Guided Reasoning for Character Descriptions in Books | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.11435) | - | - | - | long-context, coherence |
 | Skeleton-based Coherence Modeling in Narratives | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.02451) | - | - | - | long-context, coherence |
@@ -215,6 +216,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | Narrative Flattening: How Post-Training Compresses Thematic, Affective, and Stylistic Variation in LLM Fiction | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27878) | - | - | - | benchmark, evaluation |
 | Elias in the Lighthouse, Again? Diagnosing Low Diversity in LLM Stories | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26492) | - | - | - | benchmark, evaluation |
 | QUIET: A Multi-Blank Cascaded Story Cloze Benchmark for LLM Creative Generation Capability | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.25955) | - | - | - | benchmark, evaluation |
+| When Reasoning Supervision Hurts: TTCW-Based Long-Form Literary Review Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.20364) | - | - | - | evaluation, dataset |
 | EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.15199) | [Project](https://catherine-r-he.github.io/EntityBench/) | [Code](https://github.com/Catherine-R-He/EntityBench) | - | benchmark, video-story |
 | Narrative Landscape: Mapping Narrative Dispositions Across LLMs | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.08742) | - | - | - | benchmark, evaluation |
 | NARRA-Gym for Evaluating Interactive Narrative Agents | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.08503) | - | - | - | benchmark, evaluation |
