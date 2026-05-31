@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **201**
+- Total entries: **206**
 - Categories: **10**
-- Last verified: **2026-05-30**
+- Last verified: **2026-05-31**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -34,11 +34,11 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Planning / Decomposition for Story Generation | 19 |
 | Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 13 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 31 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 33 |
 | Memory & Long-Context Coherence | 13 |
 | Consistency / Controllability / Constraint Following | 22 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 46 |
+| Evaluation / Benchmarks / Metrics | 49 |
 | Datasets / Surveys / Resources | 26 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -109,7 +109,9 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | MangaFlow: An End-to-End Agentic Framework for Controllable Story to Manga Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28173) | - | - | - | multimodal, visual-story |
 | SmartDirector: Keyframe-Conditioned Cinematic Video Generation with Narrative Pacing Control | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27891) | - | - | - | multimodal, video-story |
+| BEAT: Rhythm-Elastic Alignment for Agentic Music-guided Movie Trailer Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27067) | - | - | - | multimodal, video-story |
 | ReCA: Multi-Shot Long Video Extrapolation via Recursive Context Allocation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26525) | [Project](https://reca.vmv.re) | - | - | multimodal, video-story |
+| EM-Vid: Training-Free Entity-Centric Memory for Efficient and Consistent Multi-Shot Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.23610) | - | - | - | multimodal, video-story |
 | DrawVideo: Generating Long Video from Storyboard Keyframe Sketches | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.23508) | - | - | - | multimodal, video-story |
 | S2ED: From Story to Executable Descriptions for Consistency-Aware Story Illustration | ICME 2026 (IEEE International Conference on Multimedia and Expo) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.22448) | - | - | - | multimodal, visual-story |
 | One Sentence, One Drama: Personalized Short-Form Drama Generation via Multi-Agent Systems | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.22144) | - | - | - | multimodal, screenplay |
@@ -213,9 +215,12 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | DirectorBench: Diagnosing Long-Form Video Generation with Personalized Multi-Agent Evaluation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.30090) | - | - | - | benchmark, video-story |
+| MTAVG-Bench 2.0: Diagnosing Failure Modes of Cinematic Expressiveness in Multi-Talker Audio-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28035) | - | - | - | benchmark, audio-video |
 | Narrative Flattening: How Post-Training Compresses Thematic, Affective, and Stylistic Variation in LLM Fiction | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27878) | - | - | - | benchmark, evaluation |
 | Elias in the Lighthouse, Again? Diagnosing Low Diversity in LLM Stories | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26492) | - | - | - | benchmark, evaluation |
+| LongAV-Compass: Towards Unified Evaluation of Minute-Scale Audio-Visual Generation Across T2AV, I2AV, and V2AV | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26244) | - | - | - | benchmark, audio-video |
 | QUIET: A Multi-Blank Cascaded Story Cloze Benchmark for LLM Creative Generation Capability | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.25955) | - | - | - | benchmark, evaluation |
+| EvalVerse: Pipeline-Aware and Expert-Calibrated Benchmarking for Professional Cinematic Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.23271) | - | - | - | benchmark, video-story |
 | When Reasoning Supervision Hurts: TTCW-Based Long-Form Literary Review Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.20364) | - | - | - | evaluation, dataset |
 | EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.15199) | [Project](https://catherine-r-he.github.io/EntityBench/) | [Code](https://github.com/Catherine-R-He/EntityBench) | - | benchmark, video-story |
 | Narrative Landscape: Mapping Narrative Dispositions Across LLMs | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.08742) | - | - | - | benchmark, evaluation |
