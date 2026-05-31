@@ -2,7 +2,7 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **206**
+- Total entries: **210**
 - Categories: **10**
 - Last verified: **2026-05-31**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -33,13 +33,13 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | --- | ---: |
 | Planning / Decomposition for Story Generation | 19 |
 | Agent Collaboration for Story Writing | 6 |
-| Sandbox / World Simulation Narrative Generation | 13 |
+| Sandbox / World Simulation Narrative Generation | 14 |
 | Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 33 |
 | Memory & Long-Context Coherence | 13 |
 | Consistency / Controllability / Constraint Following | 22 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 49 |
-| Datasets / Surveys / Resources | 26 |
+| Evaluation / Benchmarks / Metrics | 51 |
+| Datasets / Surveys / Resources | 27 |
 | Open-source Projects (No Paper Required) | 10 |
 
 ## Papers and Projects
@@ -89,6 +89,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | World-State Transformations for Neuro-symbolic Interactive Storytelling | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.24719) | - | - | - | sandbox, interactive |
+| Material for Thought: Generative AI as an Active Creative Medium | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.19832) | - | - | - | sandbox, co-creation |
 | A Generative AI Driven Interactive Narrative Serious Game for Stress Relief and Its Randomized Controlled Pilot Study | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.11562) | - | - | - | sandbox, interactive |
 | A Reflective Storytelling Agent for Older Adults: Integrating Argumentation Schemes and Argument Mining in LLM-Based Personalised Narratives | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.10531) | - | - | - | sandbox, interactive |
 | EvoSpark: Endogenous Interactive Agent Societies for Unified Long-Horizon Narrative Evolution | ACL 2026 (Annual Meeting of the Association for Computational Linguistics) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.12776) | - | - | - | sandbox, simulation |
@@ -218,10 +219,12 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | MTAVG-Bench 2.0: Diagnosing Failure Modes of Cinematic Expressiveness in Multi-Talker Audio-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28035) | - | - | - | benchmark, audio-video |
 | Narrative Flattening: How Post-Training Compresses Thematic, Affective, and Stylistic Variation in LLM Fiction | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27878) | - | - | - | benchmark, evaluation |
 | Elias in the Lighthouse, Again? Diagnosing Low Diversity in LLM Stories | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26492) | - | - | - | benchmark, evaluation |
+| OmniToM: Benchmarking Theory of Mind in LLMs via Explicit Belief Modeling | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26322) | - | - | - | benchmark, narrative-understanding |
 | LongAV-Compass: Towards Unified Evaluation of Minute-Scale Audio-Visual Generation Across T2AV, I2AV, and V2AV | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26244) | - | - | - | benchmark, audio-video |
 | QUIET: A Multi-Blank Cascaded Story Cloze Benchmark for LLM Creative Generation Capability | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.25955) | - | - | - | benchmark, evaluation |
 | EvalVerse: Pipeline-Aware and Expert-Calibrated Benchmarking for Professional Cinematic Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.23271) | - | - | - | benchmark, video-story |
 | When Reasoning Supervision Hurts: TTCW-Based Long-Form Literary Review Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.20364) | - | - | - | evaluation, dataset |
+| MSAVBench: Towards Comprehensive and Reliable Evaluation of Multi-Shot Audio-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.20183) | - | - | - | benchmark, audio-video |
 | EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.15199) | [Project](https://catherine-r-he.github.io/EntityBench/) | [Code](https://github.com/Catherine-R-He/EntityBench) | - | benchmark, video-story |
 | Narrative Landscape: Mapping Narrative Dispositions Across LLMs | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.08742) | - | - | - | benchmark, evaluation |
 | NARRA-Gym for Evaluating Interactive Narrative Agents | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.08503) | - | - | - | benchmark, evaluation |
@@ -272,6 +275,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | GraphLit: Learning Text-Enriched Dynamic Character Network Representations for Literary Study | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28643) | - | - | - | dataset, resource |
 | LitSeg: Narrative-Aware Document Segmentation for Literary RAG | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27156) | - | - | - | dataset, resource |
 | Manga109-v2026: Revisiting Manga109 Annotations for Modern Manga Understanding | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.21182) | [Project](https://manga109.github.io/manga109-project-website/en/) | - | - | dataset, dataset |
+| LLMs for automatic annotation of Mandarin narrative transcripts | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.17205) | - | - | - | dataset, narrative-understanding |
 | StereoTales: A Multilingual Framework for Open-Ended Stereotype Discovery in LLMs | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.10442) | - | - | - | dataset, dataset |
 | Narrative Theory-Driven LLM Methods for Automatic Story Generation and Understanding: A Survey | ArXiv 2026 (arXiv preprint) | 2026-02 | [arXiv](https://arxiv.org/abs/2602.15851) | - | - | - | dataset, survey |
 | MUSE: A Multi-agent Framework for Unconstrained Story Envisioning via Closed-Loop Cognitive Orchestration | ArXiv 2026 (arXiv preprint) | 2026-02 | [arXiv](https://arxiv.org/abs/2602.03028) | - | - | - | dataset, resource |
