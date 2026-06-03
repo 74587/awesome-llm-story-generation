@@ -2,9 +2,9 @@
 
 聚焦 2022 年以来的故事/小说/剧本生成研究，按方法分类，优先保证论文链接与信息准确。
 
-- 当前条目数: **210**
+- 当前条目数: **215**
 - 分类数量: **10**
-- 最近核对日期: **2026-05-31**
+- 最近核对日期: **2026-06-03**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 ## 目录
@@ -33,12 +33,12 @@
 | --- | ---: |
 | Planning / Decomposition for Story Generation | 19 |
 | Agent Collaboration for Story Writing | 6 |
-| Sandbox / World Simulation Narrative Generation | 14 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 33 |
-| Memory & Long-Context Coherence | 13 |
+| Sandbox / World Simulation Narrative Generation | 15 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 35 |
+| Memory & Long-Context Coherence | 14 |
 | Consistency / Controllability / Constraint Following | 22 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 51 |
+| Evaluation / Benchmarks / Metrics | 52 |
 | Datasets / Surveys / Resources | 27 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -88,6 +88,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| BotDirector: Robot Storytelling Across the Symmetrical Reality with Multi-modal Interactions | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.03223) | - | - | - | sandbox, interactive |
 | World-State Transformations for Neuro-symbolic Interactive Storytelling | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.24719) | - | - | - | sandbox, interactive |
 | Material for Thought: Generative AI as an Active Creative Medium | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.19832) | - | - | - | sandbox, co-creation |
 | A Generative AI Driven Interactive Narrative Serious Game for Stress Relief and Its Randomized Controlled Pilot Study | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.11562) | - | - | - | sandbox, interactive |
@@ -108,6 +109,8 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| JenBridge: Adaptive Long-Form Video Soundtracking across Scene Transitions | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.01703) | - | - | - | multimodal, audio-video |
+| SlotMemory: Object-Centric KV Memory for Streaming Long-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.31033) | [Project](https://tj12323.github.io/SlotMemory/) | - | - | multimodal, video-story |
 | MangaFlow: An End-to-End Agentic Framework for Controllable Story to Manga Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28173) | - | - | - | multimodal, visual-story |
 | SmartDirector: Keyframe-Conditioned Cinematic Video Generation with Narrative Pacing Control | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27891) | - | - | - | multimodal, video-story |
 | BEAT: Rhythm-Elastic Alignment for Agentic Music-guided Movie Trailer Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27067) | - | - | - | multimodal, video-story |
@@ -147,6 +150,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Building Reliable Long-Form Generation via Hallucination Rejection Sampling | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.03628) | - | [Code](https://github.com/TreeLLi/hallucination-rejection-sampling) | - | long-context, coherence |
 | Tournament-GRPO: Group-Wise Tournament Rewards for Reinforcement Learning in Open-Ended Long-Form Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26958) | - | - | - | long-context, generation |
 | On Stable Long-Form Generation: Benchmarking and Mitigating Length Volatility | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.01357) | - | - | - | long-context, coherence |
 | Think Before you Write: QA-Guided Reasoning for Character Descriptions in Books | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.11435) | - | - | - | long-context, coherence |
@@ -215,6 +219,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| SagaQA: A Multi-hop Reasoning Benchmark for Long-form Narrative Understanding in TV Series | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.03301) | - | - | - | benchmark, narrative-understanding |
 | DirectorBench: Diagnosing Long-Form Video Generation with Personalized Multi-Agent Evaluation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.30090) | - | - | - | benchmark, video-story |
 | MTAVG-Bench 2.0: Diagnosing Failure Modes of Cinematic Expressiveness in Multi-Talker Audio-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28035) | - | - | - | benchmark, audio-video |
 | Narrative Flattening: How Post-Training Compresses Thematic, Affective, and Stylistic Variation in LLM Fiction | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27878) | - | - | - | benchmark, evaluation |
