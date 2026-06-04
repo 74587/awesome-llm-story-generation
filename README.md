@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **215**
+- Total entries: **219**
 - Categories: **10**
-- Last verified: **2026-06-03**
+- Last verified: **2026-06-04**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -34,11 +34,11 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Planning / Decomposition for Story Generation | 19 |
 | Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 15 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 35 |
-| Memory & Long-Context Coherence | 14 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 36 |
+| Memory & Long-Context Coherence | 15 |
 | Consistency / Controllability / Constraint Following | 22 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 52 |
+| Evaluation / Benchmarks / Metrics | 54 |
 | Datasets / Surveys / Resources | 27 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -138,6 +138,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | EmoStory: Emotion-Aware Story Generation | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.10349) | - | - | - | multimodal, visual-story |
 | PlayWrite: A Multimodal System for AI Supported Narrative Co-Authoring Through Play in XR | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.02366) | - | - | - | multimodal, co-creation |
 | StoryComposerAI: A Multimodal Story Co-Creation Tool for Amateur Writers | CHI EA 2026 (Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems) | 2026-02 | [arXiv](https://arxiv.org/abs/2602.21486) | - | - | - | multimodal, co-creation |
+| The Script is All You Need: An Agentic Framework for Long-Horizon Dialogue-to-Cinematic Video Generation | ArXiv 2026 (arXiv preprint) | 2026-01 | [arXiv](https://arxiv.org/abs/2601.17737) | - | - | - | multimodal, screenplay |
 | Re:Verse -- Can Your VLM Read a Manga? | ICCV AISTORY Workshop 2025 (ICCV AISTORY Workshop) | 2025-08 | [arXiv](https://arxiv.org/abs/2508.08508) | - | - | - | multimodal, visual-story |
 | Lay2Story: Extending Diffusion Transformers for Layout-Togglable Story Generation | ArXiv 2025 (arXiv preprint) | 2025-08 | [arXiv](https://arxiv.org/abs/2508.08949) | - | - | - | multimodal, visual-story |
 | R^2: A LLM BASED NOVEL-TO-SCREENPLAY GENERATION FRAMEWORK WITH CAUSAL PLOT GRAPHS | ICLR 2025 (International Conference on Learning Representations) | 2025-03 | [arXiv](https://arxiv.org/abs/2503.15655) | - | - | ![citation](https://img.shields.io/badge/citation-0-0A66C2) | multimodal, screenplay |
@@ -150,6 +151,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| POLARIS: Guiding Small Models to Write Long Stories | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.04095) | - | - | - | long-context, generation |
 | Building Reliable Long-Form Generation via Hallucination Rejection Sampling | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.03628) | - | [Code](https://github.com/TreeLLi/hallucination-rejection-sampling) | - | long-context, coherence |
 | Tournament-GRPO: Group-Wise Tournament Rewards for Reinforcement Learning in Open-Ended Long-Form Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26958) | - | - | - | long-context, generation |
 | On Stable Long-Form Generation: Benchmarking and Mitigating Length Volatility | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.01357) | - | - | - | long-context, coherence |
@@ -247,6 +249,8 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | Creative Convergence or Imitation? Genre-Specific Homogeneity in LLM-Generated Chinese Literature | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.14430) | - | - | - | benchmark, evaluation |
 | Lost in Stories: Consistency Bugs in Long Story Generation by LLMs | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.05890) | [Project](https://picrew.github.io/constory-bench.github.io/) | [Code](https://github.com/Picrew/ConStory-Bench) | - | benchmark, evaluation |
 | LLMs Exhibit Significantly Lower Uncertainty in Creative Writing Than Professional Writers | ArXiv 2026 (arXiv preprint) | 2026-02 | [arXiv](https://arxiv.org/abs/2602.16162) | - | - | - | benchmark, evaluation |
+| Do readers prefer AI-generated Italian short stories? | ArXiv 2026 (arXiv preprint) | 2026-01 | [arXiv](https://arxiv.org/abs/2601.17363) | - | - | - | benchmark, evaluation |
+| STAGE: A Full-Screenplay Benchmark for Reasoning over Evolving Storie | ArXiv 2026 (arXiv preprint) | 2026-01 | [arXiv](https://arxiv.org/abs/2601.08510) | - | - | - | benchmark, screenplay |
 | Evaluation Framework for AI Creativity: A Case Study Based on Story Generation | ArXiv 2026 (arXiv preprint) | 2026-01 | [arXiv](https://arxiv.org/abs/2601.03698) | - | - | - | benchmark, evaluation |
 | Evaluating LLM Story Generation through Large-scale Network Analysis of Social Structures | ArXiv 2025 (arXiv preprint) | 2025-10 | [arXiv](https://arxiv.org/abs/2510.18932) | - | - | - | benchmark, evaluation |
 | EvolvR: Self-Evolving Pairwise Reasoning for Story Evaluation to Enhance Generation | ArXiv 2025 (arXiv preprint) | 2025-08 | [arXiv](https://arxiv.org/abs/2508.06046) | - | - | - | benchmark, evaluation |
