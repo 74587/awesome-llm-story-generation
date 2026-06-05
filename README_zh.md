@@ -2,9 +2,9 @@
 
 聚焦 2022 年以来的故事/小说/剧本生成研究，按方法分类，优先保证论文链接与信息准确。
 
-- 当前条目数: **219**
+- 当前条目数: **223**
 - 分类数量: **10**
-- 最近核对日期: **2026-06-04**
+- 最近核对日期: **2026-06-05**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 ## 目录
@@ -35,10 +35,10 @@
 | Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 15 |
 | Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 36 |
-| Memory & Long-Context Coherence | 15 |
+| Memory & Long-Context Coherence | 16 |
 | Consistency / Controllability / Constraint Following | 22 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 54 |
+| Evaluation / Benchmarks / Metrics | 57 |
 | Datasets / Surveys / Resources | 27 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -151,6 +151,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Narrative Knowledge Weaver: Narrative-Centric Retrieval-Augmented Reasoning for Long-Form Text Understanding | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.05724) | - | - | - | long-context, narrative-understanding |
 | POLARIS: Guiding Small Models to Write Long Stories | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.04095) | - | - | - | long-context, generation |
 | Building Reliable Long-Form Generation via Hallucination Rejection Sampling | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.03628) | - | [Code](https://github.com/TreeLLi/hallucination-rejection-sampling) | - | long-context, coherence |
 | Tournament-GRPO: Group-Wise Tournament Rewards for Reinforcement Learning in Open-Ended Long-Form Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26958) | - | - | - | long-context, generation |
@@ -221,7 +222,10 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| StoryVideoQA: Scaling Deep Video Understanding with a Large-Scale, Multi-Genre and Auto-Generated Dataset | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.06338) | - | [Code](https://github.com/nercms-mmap/StoryVideoQA) | - | benchmark, video-story |
+| ArcANE: Do Role-Playing Language Agents Stay in Character at the Right Time? | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.05553) | - | - | - | benchmark, character-consistency |
 | SagaQA: A Multi-hop Reasoning Benchmark for Long-form Narrative Understanding in TV Series | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.03301) | - | - | - | benchmark, narrative-understanding |
+| "I've Seen How This Goes": Characterizing Diversity via Progressive Conditional Surprise | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.01811) | - | [Code](https://github.com/AMindToThink/icl-diversity) | - | benchmark, diversity |
 | DirectorBench: Diagnosing Long-Form Video Generation with Personalized Multi-Agent Evaluation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.30090) | - | - | - | benchmark, video-story |
 | MTAVG-Bench 2.0: Diagnosing Failure Modes of Cinematic Expressiveness in Multi-Talker Audio-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28035) | - | - | - | benchmark, audio-video |
 | Narrative Flattening: How Post-Training Compresses Thematic, Affective, and Stylistic Variation in LLM Fiction | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27878) | - | - | - | benchmark, evaluation |
