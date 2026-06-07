@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **224**
+- Total entries: **225**
 - Categories: **10**
-- Last verified: **2026-06-06**
+- Last verified: **2026-06-07**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -38,7 +38,7 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Memory & Long-Context Coherence | 16 |
 | Consistency / Controllability / Constraint Following | 22 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 58 |
+| Evaluation / Benchmarks / Metrics | 59 |
 | Datasets / Surveys / Resources | 27 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -226,6 +226,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | ArcANE: Do Role-Playing Language Agents Stay in Character at the Right Time? | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.05553) | - | - | - | benchmark, character-consistency |
 | SagaQA: A Multi-hop Reasoning Benchmark for Long-form Narrative Understanding in TV Series | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.03301) | - | - | - | benchmark, narrative-understanding |
 | "I've Seen How This Goes": Characterizing Diversity via Progressive Conditional Surprise | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.01811) | - | [Code](https://github.com/AMindToThink/icl-diversity) | - | benchmark, diversity |
+| Benchmarking LLM-as-a-Judge for Long-Form Output Evaluation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.01629) | - | [Code](https://github.com/cjj826/LongJudgeBench) | - | benchmark, evaluation |
 | RoleCDE:Benchmarking and Mitigating Role-Alignment Trade-offs in Role-Playing Agents | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.01552) | - | [Code](https://github.com/rabbitrose/RoleCDE) | - | benchmark, character-consistency |
 | DirectorBench: Diagnosing Long-Form Video Generation with Personalized Multi-Agent Evaluation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.30090) | - | - | - | benchmark, video-story |
 | MTAVG-Bench 2.0: Diagnosing Failure Modes of Cinematic Expressiveness in Multi-Talker Audio-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28035) | - | - | - | benchmark, audio-video |
