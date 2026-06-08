@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **225**
+- Total entries: **226**
 - Categories: **10**
-- Last verified: **2026-06-07**
+- Last verified: **2026-06-08**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -34,7 +34,7 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Planning / Decomposition for Story Generation | 19 |
 | Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 15 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 36 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 37 |
 | Memory & Long-Context Coherence | 16 |
 | Consistency / Controllability / Constraint Following | 22 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
@@ -109,6 +109,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Audio-Oscar: A Multi-Agent System for Complex Audio Scene Generation, Orchestration, and Refinement | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07397) | [Project](https://audiooscar.github.io/) | [Code](https://github.com/ziye26/Audio-Oscar) | - | multimodal, audio-story |
 | JenBridge: Adaptive Long-Form Video Soundtracking across Scene Transitions | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.01703) | - | - | - | multimodal, audio-video |
 | SlotMemory: Object-Centric KV Memory for Streaming Long-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.31033) | [Project](https://tj12323.github.io/SlotMemory/) | - | - | multimodal, video-story |
 | MangaFlow: An End-to-End Agentic Framework for Controllable Story to Manga Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28173) | - | - | - | multimodal, visual-story |
