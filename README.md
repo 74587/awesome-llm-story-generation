@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **226**
+- Total entries: **232**
 - Categories: **10**
-- Last verified: **2026-06-08**
+- Last verified: **2026-06-09**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -34,12 +34,12 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Planning / Decomposition for Story Generation | 19 |
 | Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 15 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 37 |
-| Memory & Long-Context Coherence | 16 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 39 |
+| Memory & Long-Context Coherence | 17 |
 | Consistency / Controllability / Constraint Following | 22 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 59 |
-| Datasets / Surveys / Resources | 27 |
+| Evaluation / Benchmarks / Metrics | 61 |
+| Datasets / Surveys / Resources | 28 |
 | Open-source Projects (No Paper Required) | 10 |
 
 ## Papers and Projects
@@ -109,8 +109,10 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| ViMax: Agentic Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07649) | - | - | - | multimodal, video-story |
 | Audio-Oscar: A Multi-Agent System for Complex Audio Scene Generation, Orchestration, and Refinement | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07397) | [Project](https://audiooscar.github.io/) | [Code](https://github.com/ziye26/Audio-Oscar) | - | multimodal, audio-story |
 | JenBridge: Adaptive Long-Form Video Soundtracking across Scene Transitions | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.01703) | - | - | - | multimodal, audio-video |
+| Crayotter: Traceable Multi-Agent Workflows for Long-Form Video Editing | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2606.07636) | - | [Code](https://github.com/idwts/Crayotter) | - | multimodal, video-story |
 | SlotMemory: Object-Centric KV Memory for Streaming Long-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.31033) | [Project](https://tj12323.github.io/SlotMemory/) | - | - | multimodal, video-story |
 | MangaFlow: An End-to-End Agentic Framework for Controllable Story to Manga Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28173) | - | - | - | multimodal, visual-story |
 | SmartDirector: Keyframe-Conditioned Cinematic Video Generation with Narrative Pacing Control | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27891) | - | - | - | multimodal, video-story |
@@ -152,6 +154,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| IS-CoT: Breaking the Long-form Generation Collapse via Interleaved Structural Thinking | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.09709) | - | - | - | long-context, generation |
 | Narrative Knowledge Weaver: Narrative-Centric Retrieval-Augmented Reasoning for Long-Form Text Understanding | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.05724) | - | - | - | long-context, narrative-understanding |
 | POLARIS: Guiding Small Models to Write Long Stories | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.04095) | - | - | - | long-context, generation |
 | Building Reliable Long-Form Generation via Hallucination Rejection Sampling | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.03628) | - | [Code](https://github.com/TreeLLi/hallucination-rejection-sampling) | - | long-context, coherence |
@@ -223,6 +226,8 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Neutrality Bites: Gender Representation in AI-Generated Animal Stories | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07969) | - | - | - | benchmark, evaluation |
+| Illusions of the Gold Standard: A Large-scale Analysis of Human Evaluation Protocols for Long-form Text Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07936) | - | - | - | benchmark, evaluation |
 | StoryVideoQA: Scaling Deep Video Understanding with a Large-Scale, Multi-Genre and Auto-Generated Dataset | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.06338) | - | [Code](https://github.com/nercms-mmap/StoryVideoQA) | - | benchmark, video-story |
 | ArcANE: Do Role-Playing Language Agents Stay in Character at the Right Time? | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.05553) | - | - | - | benchmark, character-consistency |
 | SagaQA: A Multi-hop Reasoning Benchmark for Long-form Narrative Understanding in TV Series | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.03301) | - | - | - | benchmark, narrative-understanding |
@@ -288,6 +293,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.09639) | [Project](https://aliothchen.github.io/projects/CineDance/) | - | - | dataset, audio-video |
 | GraphLit: Learning Text-Enriched Dynamic Character Network Representations for Literary Study | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28643) | - | - | - | dataset, resource |
 | LitSeg: Narrative-Aware Document Segmentation for Literary RAG | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27156) | - | - | - | dataset, resource |
 | Manga109-v2026: Revisiting Manga109 Annotations for Modern Manga Understanding | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.21182) | [Project](https://manga109.github.io/manga109-project-website/en/) | - | - | dataset, dataset |
