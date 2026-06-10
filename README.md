@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **232**
+- Total entries: **233**
 - Categories: **10**
-- Last verified: **2026-06-09**
+- Last verified: **2026-06-10**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -38,7 +38,7 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Memory & Long-Context Coherence | 17 |
 | Consistency / Controllability / Constraint Following | 22 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 61 |
+| Evaluation / Benchmarks / Metrics | 62 |
 | Datasets / Surveys / Resources | 28 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -235,6 +235,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | Benchmarking LLM-as-a-Judge for Long-Form Output Evaluation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.01629) | - | [Code](https://github.com/cjj826/LongJudgeBench) | - | benchmark, evaluation |
 | RoleCDE:Benchmarking and Mitigating Role-Alignment Trade-offs in Role-Playing Agents | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.01552) | - | [Code](https://github.com/rabbitrose/RoleCDE) | - | benchmark, character-consistency |
 | DirectorBench: Diagnosing Long-Form Video Generation with Personalized Multi-Agent Evaluation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.30090) | - | - | - | benchmark, video-story |
+| DynSess: Dynamic Session-Level Evaluation and Optimization Framework for Role-Playing Agents | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.29256) | - | - | - | benchmark, character-consistency |
 | MTAVG-Bench 2.0: Diagnosing Failure Modes of Cinematic Expressiveness in Multi-Talker Audio-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28035) | - | - | - | benchmark, audio-video |
 | Narrative Flattening: How Post-Training Compresses Thematic, Affective, and Stylistic Variation in LLM Fiction | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27878) | - | - | - | benchmark, evaluation |
 | Elias in the Lighthouse, Again? Diagnosing Low Diversity in LLM Stories | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.26492) | - | - | - | benchmark, evaluation |
