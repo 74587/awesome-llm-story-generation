@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **233**
+- Total entries: **237**
 - Categories: **10**
-- Last verified: **2026-06-10**
+- Last verified: **2026-06-12**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -33,12 +33,12 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | --- | ---: |
 | Planning / Decomposition for Story Generation | 19 |
 | Agent Collaboration for Story Writing | 6 |
-| Sandbox / World Simulation Narrative Generation | 15 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 39 |
+| Sandbox / World Simulation Narrative Generation | 16 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 40 |
 | Memory & Long-Context Coherence | 17 |
-| Consistency / Controllability / Constraint Following | 22 |
+| Consistency / Controllability / Constraint Following | 23 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 62 |
+| Evaluation / Benchmarks / Metrics | 63 |
 | Datasets / Surveys / Resources | 28 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -88,6 +88,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| IVIE: A Neuro-symbolic Approach to Incremental and Validated Generation of Interactive Fiction Worlds | ICCC 2026 (International Conference on Computational Creativity) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13348) | - | - | - | sandbox, interactive |
 | BotDirector: Robot Storytelling Across the Symmetrical Reality with Multi-modal Interactions | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.03223) | - | - | - | sandbox, interactive |
 | World-State Transformations for Neuro-symbolic Interactive Storytelling | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.24719) | - | - | - | sandbox, interactive |
 | Material for Thought: Generative AI as an Active Creative Medium | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.19832) | - | - | - | sandbox, co-creation |
@@ -109,6 +110,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| InterleaveThinker: Reinforcing Agentic Interleaved Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13679) | [Project](https://zhengdian1.github.io/InterleaveThinker-proj/) | [Code](https://github.com/zhengdian1/InterleaveThinker) | - | multimodal, visual-story |
 | ViMax: Agentic Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07649) | - | - | - | multimodal, video-story |
 | Audio-Oscar: A Multi-Agent System for Complex Audio Scene Generation, Orchestration, and Refinement | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07397) | [Project](https://audiooscar.github.io/) | [Code](https://github.com/ziye26/Audio-Oscar) | - | multimodal, audio-story |
 | JenBridge: Adaptive Long-Form Video Soundtracking across Scene Transitions | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.01703) | - | - | - | multimodal, audio-video |
@@ -177,6 +179,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Constrained Semantic Decompression in LLMs through Persian Proverb-Conditioned Story Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.12599) | - | - | - | controllability, story-generation |
 | Children's English Reading Story Generation via Supervised Fine-Tuning of Compact LLMs with Controllable Difficulty and Safety | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.13709) | - | - | - | controllability, consistency |
 | UniCreative: Unifying Long-form Logic and Short-form Sparkle via Reference-Free Reinforcement Learning | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.05517) | - | - | - | controllability, consistency |
 | Noise Steering for Controlled Text Generation: Improving Diversity and Reading-Level Fidelity in Arabic Educational Story Generation | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.03380) | - | - | - | controllability, consistency |
@@ -226,6 +229,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Automated Creativity Evaluation of Language Models Across Open-Ended Tasks | ACL 2026 (Annual Meeting of the Association for Computational Linguistics) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.11762) | - | [Code](https://github.com/tanminsen/creativity-eval) | - | benchmark, evaluation |
 | Neutrality Bites: Gender Representation in AI-Generated Animal Stories | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07969) | - | - | - | benchmark, evaluation |
 | Illusions of the Gold Standard: A Large-scale Analysis of Human Evaluation Protocols for Long-form Text Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07936) | - | - | - | benchmark, evaluation |
 | StoryVideoQA: Scaling Deep Video Understanding with a Large-Scale, Multi-Genre and Auto-Generated Dataset | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.06338) | - | [Code](https://github.com/nercms-mmap/StoryVideoQA) | - | benchmark, video-story |
