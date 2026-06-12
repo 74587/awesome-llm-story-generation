@@ -2,7 +2,7 @@
 
 聚焦 2022 年以来的故事/小说/剧本生成研究，按方法分类，优先保证论文链接与信息准确。
 
-- 当前条目数: **237**
+- 当前条目数: **241**
 - 分类数量: **10**
 - 最近核对日期: **2026-06-12**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -34,11 +34,11 @@
 | Planning / Decomposition for Story Generation | 19 |
 | Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 16 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 40 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 43 |
 | Memory & Long-Context Coherence | 17 |
 | Consistency / Controllability / Constraint Following | 23 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 63 |
+| Evaluation / Benchmarks / Metrics | 64 |
 | Datasets / Surveys / Resources | 28 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -113,8 +113,11 @@
 | InterleaveThinker: Reinforcing Agentic Interleaved Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13679) | [Project](https://zhengdian1.github.io/InterleaveThinker-proj/) | [Code](https://github.com/zhengdian1/InterleaveThinker) | - | multimodal, visual-story |
 | ViMax: Agentic Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07649) | - | - | - | multimodal, video-story |
 | Audio-Oscar: A Multi-Agent System for Complex Audio Scene Generation, Orchestration, and Refinement | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07397) | [Project](https://audiooscar.github.io/) | [Code](https://github.com/ziye26/Audio-Oscar) | - | multimodal, audio-story |
+| LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.02553) | - | [Code](https://github.com/qixinhu11/LongLive-RAG) | - | multimodal, video-story |
+| Retrieve What's Missing: Coverage-Maximizing Retrieval for Consistent Long Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.02479) | - | - | - | multimodal, video-story |
 | JenBridge: Adaptive Long-Form Video Soundtracking across Scene Transitions | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.01703) | - | - | - | multimodal, audio-video |
 | Crayotter: Traceable Multi-Agent Workflows for Long-Form Video Editing | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2606.07636) | - | [Code](https://github.com/idwts/Crayotter) | - | multimodal, video-story |
+| DecMem: Towards Minute-Long Consistent World Generation with Decoupled Memory | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.31336) | [Project](https://jeffreyyzh.github.io/DecMem-Page/) | - | - | multimodal, video-story |
 | SlotMemory: Object-Centric KV Memory for Streaming Long-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.31033) | [Project](https://tj12323.github.io/SlotMemory/) | - | - | multimodal, video-story |
 | MangaFlow: An End-to-End Agentic Framework for Controllable Story to Manga Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28173) | - | - | - | multimodal, visual-story |
 | SmartDirector: Keyframe-Conditioned Cinematic Video Generation with Narrative Pacing Control | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27891) | - | - | - | multimodal, video-story |
@@ -230,6 +233,7 @@
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Automated Creativity Evaluation of Language Models Across Open-Ended Tasks | ACL 2026 (Annual Meeting of the Association for Computational Linguistics) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.11762) | - | [Code](https://github.com/tanminsen/creativity-eval) | - | benchmark, evaluation |
+| VideoWeaver: Evaluating and Evolving Skills for Agentic Long Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.08091) | - | [Code](https://github.com/JianhuiWei7/VideoWeaver) | - | benchmark, video-story |
 | Neutrality Bites: Gender Representation in AI-Generated Animal Stories | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07969) | - | - | - | benchmark, evaluation |
 | Illusions of the Gold Standard: A Large-scale Analysis of Human Evaluation Protocols for Long-form Text Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07936) | - | - | - | benchmark, evaluation |
 | StoryVideoQA: Scaling Deep Video Understanding with a Large-Scale, Multi-Genre and Auto-Generated Dataset | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.06338) | - | [Code](https://github.com/nercms-mmap/StoryVideoQA) | - | benchmark, video-story |
