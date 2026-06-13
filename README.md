@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **241**
+- Total entries: **242**
 - Categories: **10**
-- Last verified: **2026-06-12**
+- Last verified: **2026-06-13**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -39,7 +39,7 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Consistency / Controllability / Constraint Following | 23 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
 | Evaluation / Benchmarks / Metrics | 64 |
-| Datasets / Surveys / Resources | 28 |
+| Datasets / Surveys / Resources | 29 |
 | Open-source Projects (No Paper Required) | 10 |
 
 ## Papers and Projects
@@ -303,6 +303,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.09639) | [Project](https://aliothchen.github.io/projects/CineDance/) | - | - | dataset, audio-video |
+| AI as a Tool for Simulation-Based Experiments in Literary Studies | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.02293) | - | - | - | resource, literary-study |
 | GraphLit: Learning Text-Enriched Dynamic Character Network Representations for Literary Study | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28643) | - | - | - | dataset, resource |
 | LitSeg: Narrative-Aware Document Segmentation for Literary RAG | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.27156) | - | - | - | dataset, resource |
 | Manga109-v2026: Revisiting Manga109 Annotations for Modern Manga Understanding | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.21182) | [Project](https://manga109.github.io/manga109-project-website/en/) | - | - | dataset, dataset |
