@@ -2,9 +2,9 @@
 
 聚焦 2022 年以来的故事/小说/剧本生成研究，按方法分类，优先保证论文链接与信息准确。
 
-- 当前条目数: **242**
+- 当前条目数: **243**
 - 分类数量: **10**
-- 最近核对日期: **2026-06-13**
+- 最近核对日期: **2026-06-14**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 ## 目录
@@ -38,7 +38,7 @@
 | Memory & Long-Context Coherence | 17 |
 | Consistency / Controllability / Constraint Following | 23 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 64 |
+| Evaluation / Benchmarks / Metrics | 65 |
 | Datasets / Surveys / Resources | 29 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -242,6 +242,7 @@
 | "I've Seen How This Goes": Characterizing Diversity via Progressive Conditional Surprise | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.01811) | - | [Code](https://github.com/AMindToThink/icl-diversity) | - | benchmark, diversity |
 | Benchmarking LLM-as-a-Judge for Long-Form Output Evaluation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.01629) | - | [Code](https://github.com/cjj826/LongJudgeBench) | - | benchmark, evaluation |
 | RoleCDE:Benchmarking and Mitigating Role-Alignment Trade-offs in Role-Playing Agents | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.01552) | - | [Code](https://github.com/rabbitrose/RoleCDE) | - | benchmark, character-consistency |
+| Deep Research as Rubric for Reinforcement Learning | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2606.01091) | - | [Code](https://github.com/meiotoufa/DR-Rubric) | - | evaluation, rubric |
 | DirectorBench: Diagnosing Long-Form Video Generation with Personalized Multi-Agent Evaluation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.30090) | - | - | - | benchmark, video-story |
 | DynSess: Dynamic Session-Level Evaluation and Optimization Framework for Role-Playing Agents | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.29256) | - | - | - | benchmark, character-consistency |
 | MTAVG-Bench 2.0: Diagnosing Failure Modes of Cinematic Expressiveness in Multi-Talker Audio-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28035) | - | - | - | benchmark, audio-video |
