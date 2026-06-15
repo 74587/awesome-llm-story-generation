@@ -2,9 +2,9 @@
 
 聚焦 2022 年以来的故事/小说/剧本生成研究，按方法分类，优先保证论文链接与信息准确。
 
-- 当前条目数: **243**
+- 当前条目数: **247**
 - 分类数量: **10**
-- 最近核对日期: **2026-06-14**
+- 最近核对日期: **2026-06-15**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 ## 目录
@@ -34,11 +34,11 @@
 | Planning / Decomposition for Story Generation | 19 |
 | Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 16 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 43 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 45 |
 | Memory & Long-Context Coherence | 17 |
 | Consistency / Controllability / Constraint Following | 23 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 65 |
+| Evaluation / Benchmarks / Metrics | 67 |
 | Datasets / Surveys / Resources | 29 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -110,7 +110,9 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Memento: Reconstruct to Remember for Consistent Long Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.14667) | [Project](https://ernie-research.github.io/Memento/) | [Code](https://github.com/ernie-research/Memento) | - | multimodal, video-story |
 | InterleaveThinker: Reinforcing Agentic Interleaved Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13679) | [Project](https://zhengdian1.github.io/InterleaveThinker-proj/) | [Code](https://github.com/zhengdian1/InterleaveThinker) | - | multimodal, visual-story |
+| TetherCache: Stabilizing Autoregressive Long-Form Video Generation with Gated Recall and Trusted Alignment | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13035) | - | - | - | multimodal, video-story |
 | ViMax: Agentic Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07649) | - | - | - | multimodal, video-story |
 | Audio-Oscar: A Multi-Agent System for Complex Audio Scene Generation, Orchestration, and Refinement | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07397) | [Project](https://audiooscar.github.io/) | [Code](https://github.com/ziye26/Audio-Oscar) | - | multimodal, audio-story |
 | LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.02553) | - | [Code](https://github.com/qixinhu11/LongLive-RAG) | - | multimodal, video-story |
@@ -232,7 +234,9 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Characterizing Cultural Localization in AI-Generated Stories | ACL Workshop 2026 (C3NLP Workshop) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.14626) | - | - | - | benchmark, evaluation |
 | Automated Creativity Evaluation of Language Models Across Open-Ended Tasks | ACL 2026 (Annual Meeting of the Association for Computational Linguistics) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.11762) | - | [Code](https://github.com/tanminsen/creativity-eval) | - | benchmark, evaluation |
+| Can Image Models Imagine Time? ImageTime: A Novel Benchmark for Probing Visual World Modeling Through Spatiotemporal Consistency | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.10620) | - | - | - | benchmark, visual-story |
 | VideoWeaver: Evaluating and Evolving Skills for Agentic Long Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.08091) | - | [Code](https://github.com/JianhuiWei7/VideoWeaver) | - | benchmark, video-story |
 | Neutrality Bites: Gender Representation in AI-Generated Animal Stories | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07969) | - | - | - | benchmark, evaluation |
 | Illusions of the Gold Standard: A Large-scale Analysis of Human Evaluation Protocols for Long-form Text Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07936) | - | - | - | benchmark, evaluation |
