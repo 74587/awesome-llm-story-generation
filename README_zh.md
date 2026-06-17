@@ -2,9 +2,9 @@
 
 聚焦 2022 年以来的故事/小说/剧本生成研究，按方法分类，优先保证论文链接与信息准确。
 
-- 当前条目数: **250**
+- 当前条目数: **255**
 - 分类数量: **10**
-- 最近核对日期: **2026-06-16**
+- 最近核对日期: **2026-06-17**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 ## 目录
@@ -31,14 +31,14 @@
 
 | 分类 | 条目数 |
 | --- | ---: |
-| Planning / Decomposition for Story Generation | 20 |
+| Planning / Decomposition for Story Generation | 21 |
 | Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 16 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 46 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 48 |
 | Memory & Long-Context Coherence | 17 |
 | Consistency / Controllability / Constraint Following | 24 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 67 |
+| Evaluation / Benchmarks / Metrics | 69 |
 | Datasets / Surveys / Resources | 29 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -52,6 +52,7 @@
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | GraphStory: Collaborative Story Writing through Event-Based Narrative Editing | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.16102) | - | - | - | planning, narrative-structure |
+| Fabula: Building a Narrative Storytelling Sidekick with the Writers' Community | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.14411) | - | - | - | planning, co-creation |
 | Towards Human-Level Book-Writing Capability | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.17064) | - | - | - | planning, narrative-structure |
 | Planning Beyond Text: Graph-based Reasoning for Complex Narrative Generation | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.21253) | - | - | - | planning, narrative-structure |
 | Narrix: Remixing Narrative Strategies from Examples for Story Writing | CHI 2026 (Conference on Human Factors in Computing Systems) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.07643) | - | - | - | planning, narrative-structure |
@@ -113,7 +114,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Closed-Loop Triplet Synergistic Generation for Long-Form Video | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.16184) | - | - | - | multimodal, video-story |
 | Memento: Reconstruct to Remember for Consistent Long Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.14667) | [Project](https://ernie-research.github.io/Memento/) | [Code](https://github.com/ernie-research/Memento) | - | multimodal, video-story |
+| CineOrchestra: Unified Entity-Centric Conditioning for Cinematic Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13768) | - | - | - | multimodal, video-story |
 | InterleaveThinker: Reinforcing Agentic Interleaved Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13679) | [Project](https://zhengdian1.github.io/InterleaveThinker-proj/) | [Code](https://github.com/zhengdian1/InterleaveThinker) | - | multimodal, visual-story |
+| OmniDirector: General Multi-Shot Camera Cloning without Cross-Paired Data | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13432) | [Project](https://ymlinfeng.github.io/OmniDirector.github.io/) | - | - | multimodal, video-story |
 | TetherCache: Stabilizing Autoregressive Long-Form Video Generation with Gated Recall and Trusted Alignment | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13035) | - | - | - | multimodal, video-story |
 | ViMax: Agentic Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07649) | - | - | - | multimodal, video-story |
 | Audio-Oscar: A Multi-Agent System for Complex Audio Scene Generation, Orchestration, and Refinement | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07397) | [Project](https://audiooscar.github.io/) | [Code](https://github.com/ziye26/Audio-Oscar) | - | multimodal, audio-story |
@@ -237,6 +240,8 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| NarrativeWorldBench: A Frontier-Saturated Benchmark and a Latent World Model for Long-Horizon Co-Creative Audio Drama | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.17391) | - | - | - | benchmark, audio-story |
+| Do Large Language Models Always Tell The Same Stories? | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.17350) | - | - | - | benchmark, diversity |
 | Characterizing Cultural Localization in AI-Generated Stories | ACL Workshop 2026 (C3NLP Workshop) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.14626) | - | - | - | benchmark, evaluation |
 | Automated Creativity Evaluation of Language Models Across Open-Ended Tasks | ACL 2026 (Annual Meeting of the Association for Computational Linguistics) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.11762) | - | [Code](https://github.com/tanminsen/creativity-eval) | - | benchmark, evaluation |
 | Can Image Models Imagine Time? ImageTime: A Novel Benchmark for Probing Visual World Modeling Through Spatiotemporal Consistency | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.10620) | - | - | - | benchmark, visual-story |
