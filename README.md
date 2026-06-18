@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **255**
+- Total entries: **258**
 - Categories: **10**
-- Last verified: **2026-06-17**
+- Last verified: **2026-06-18**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -34,7 +34,7 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Planning / Decomposition for Story Generation | 21 |
 | Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 16 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 48 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 51 |
 | Memory & Long-Context Coherence | 17 |
 | Consistency / Controllability / Constraint Following | 24 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
@@ -112,6 +112,9 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Reference-Driven Multi-Speaker Audio Scene Generation from In-the-Wild Priors | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.19325) | [Project](https://finmickey.github.io/scena/) | - | - | multimodal, audio-story |
+| UniTemp: Unlocking Video Generation in Any Temporal Order via Bidirectional Distillation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.18702) | [Project](https://lzhangbj.github.io/projects/unitemp/) | [Code](https://github.com/lzhangbj/UniTemp) | - | multimodal, video-story |
+| Bridging Creative Intent and Visual Quality: Creator-Driven Recurrent Video Generation with Agentic Feedback Loops | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.18591) | - | - | - | multimodal, video-story |
 | Closed-Loop Triplet Synergistic Generation for Long-Form Video | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.16184) | - | - | - | multimodal, video-story |
 | Memento: Reconstruct to Remember for Consistent Long Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.14667) | [Project](https://ernie-research.github.io/Memento/) | [Code](https://github.com/ernie-research/Memento) | - | multimodal, video-story |
 | CineOrchestra: Unified Entity-Centric Conditioning for Cinematic Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13768) | - | - | - | multimodal, video-story |
