@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **260**
+- Total entries: **261**
 - Categories: **10**
-- Last verified: **2026-06-19**
+- Last verified: **2026-06-20**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -38,7 +38,7 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Memory & Long-Context Coherence | 17 |
 | Consistency / Controllability / Constraint Following | 24 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 70 |
+| Evaluation / Benchmarks / Metrics | 71 |
 | Datasets / Surveys / Resources | 30 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -246,6 +246,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | NEST: Narrative Event Structures in Time for Long Video Understanding | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.19706) | - | - | - | benchmark, narrative-understanding |
 | NarrativeWorldBench: A Frontier-Saturated Benchmark and a Latent World Model for Long-Horizon Co-Creative Audio Drama | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.17391) | - | - | - | benchmark, audio-story |
 | Do Large Language Models Always Tell The Same Stories? | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.17350) | - | - | - | benchmark, diversity |
+| ttda704 at SemEval-2026 Task 4: Modeling Narrative Structures via Pseudonymization and Multi-View Sentence Alignment | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.15783) | - | [Code](https://github.com/dinhthienan33/SemEval2026-Task4-ttda704) | - | benchmark, narrative-representation |
 | Characterizing Cultural Localization in AI-Generated Stories | ACL Workshop 2026 (C3NLP Workshop) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.14626) | - | - | - | benchmark, evaluation |
 | Automated Creativity Evaluation of Language Models Across Open-Ended Tasks | ACL 2026 (Annual Meeting of the Association for Computational Linguistics) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.11762) | - | [Code](https://github.com/tanminsen/creativity-eval) | - | benchmark, evaluation |
 | Can Image Models Imagine Time? ImageTime: A Novel Benchmark for Probing Visual World Modeling Through Spatiotemporal Consistency | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.10620) | - | - | - | benchmark, visual-story |
