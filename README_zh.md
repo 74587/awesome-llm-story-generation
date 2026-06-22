@@ -2,9 +2,9 @@
 
 聚焦 2022 年以来的故事/小说/剧本生成研究，按方法分类，优先保证论文链接与信息准确。
 
-- 当前条目数: **261**
+- 当前条目数: **268**
 - 分类数量: **10**
-- 最近核对日期: **2026-06-20**
+- 最近核对日期: **2026-06-22**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 ## 目录
@@ -34,12 +34,12 @@
 | Planning / Decomposition for Story Generation | 21 |
 | Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 16 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 51 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 57 |
 | Memory & Long-Context Coherence | 17 |
 | Consistency / Controllability / Constraint Following | 24 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
 | Evaluation / Benchmarks / Metrics | 71 |
-| Datasets / Surveys / Resources | 30 |
+| Datasets / Surveys / Resources | 31 |
 | Open-source Projects (No Paper Required) | 10 |
 
 ## 论文与项目
@@ -112,15 +112,21 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| DataMagic: Transforming Tabular Data into Data Insight Video | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.20388) | [Project](https://datamagic-home.github.io/) | - | - | multimodal, data-story |
+| LooseControlVideo: Directorial Video Control using Spatial Blocking | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.19495) | [Project](https://shariqfarooq123.github.io/LooseControlVideo/) | - | - | multimodal, video-story |
 | Reference-Driven Multi-Speaker Audio Scene Generation from In-the-Wild Priors | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.19325) | [Project](https://finmickey.github.io/scena/) | - | - | multimodal, audio-story |
 | UniTemp: Unlocking Video Generation in Any Temporal Order via Bidirectional Distillation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.18702) | [Project](https://lzhangbj.github.io/projects/unitemp/) | [Code](https://github.com/lzhangbj/UniTemp) | - | multimodal, video-story |
 | Bridging Creative Intent and Visual Quality: Creator-Driven Recurrent Video Generation with Agentic Feedback Loops | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.18591) | - | - | - | multimodal, video-story |
+| PermaVid: Consistent Video Generation Across Edits via Disentangled Context Memory | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.16449) | [Project](https://ys-imtech.github.io/projects/PermaVid/) | - | - | multimodal, video-story |
 | Closed-Loop Triplet Synergistic Generation for Long-Form Video | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.16184) | - | - | - | multimodal, video-story |
 | Memento: Reconstruct to Remember for Consistent Long Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.14667) | [Project](https://ernie-research.github.io/Memento/) | [Code](https://github.com/ernie-research/Memento) | - | multimodal, video-story |
 | CineOrchestra: Unified Entity-Centric Conditioning for Cinematic Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13768) | - | - | - | multimodal, video-story |
 | InterleaveThinker: Reinforcing Agentic Interleaved Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13679) | [Project](https://zhengdian1.github.io/InterleaveThinker-proj/) | [Code](https://github.com/zhengdian1/InterleaveThinker) | - | multimodal, visual-story |
 | OmniDirector: General Multi-Shot Camera Cloning without Cross-Paired Data | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13432) | [Project](https://ymlinfeng.github.io/OmniDirector.github.io/) | - | - | multimodal, video-story |
 | TetherCache: Stabilizing Autoregressive Long-Form Video Generation with Gated Recall and Trusted Alignment | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13035) | - | - | - | multimodal, video-story |
+| Helping Figures Tell their Story! Paper-Grounded Video Generation Explaining Complex Scientific Figures | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.12576) | [Project](https://minard.vercel.app/) | - | - | multimodal, visual-story |
+| Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.11176) | [Project](https://data2story.github.io) | [Code](https://github.com/QinghongLin/data2story-skill) | - | multimodal, data-story |
+| MilliVid: Hierarchical Latents for Long-Range Consistency in Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.09056) | [Project](https://davidcharatan.com/millivid/) | - | - | multimodal, video-story |
 | ViMax: Agentic Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07649) | - | - | - | multimodal, video-story |
 | Audio-Oscar: A Multi-Agent System for Complex Audio Scene Generation, Orchestration, and Refinement | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.07397) | [Project](https://audiooscar.github.io/) | [Code](https://github.com/ziye26/Audio-Oscar) | - | multimodal, audio-story |
 | LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.02553) | - | [Code](https://github.com/qixinhu11/LongLive-RAG) | - | multimodal, video-story |
@@ -321,6 +327,7 @@
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Characterizing Narrative Content in Web-scale LLM Pretraining Data | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.19468) | - | - | - | dataset, resource |
+| OmniVideo-100K: A Dataset for Audio-Visual Reasoning through Structured Scripts and Evidence Chains | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.14702) | - | [Code](https://github.com/MiG-NJU/OmniVideo-100K) | - | dataset, audio-video |
 | CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.09639) | [Project](https://aliothchen.github.io/projects/CineDance/) | - | - | dataset, audio-video |
 | AI as a Tool for Simulation-Based Experiments in Literary Studies | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.02293) | - | - | - | resource, literary-study |
 | GraphLit: Learning Text-Enriched Dynamic Character Network Representations for Literary Study | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28643) | - | - | - | dataset, resource |
