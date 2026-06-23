@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **268**
+- Total entries: **271**
 - Categories: **10**
-- Last verified: **2026-06-22**
+- Last verified: **2026-06-23**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -33,13 +33,13 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | --- | ---: |
 | Planning / Decomposition for Story Generation | 21 |
 | Agent Collaboration for Story Writing | 6 |
-| Sandbox / World Simulation Narrative Generation | 16 |
+| Sandbox / World Simulation Narrative Generation | 17 |
 | Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 57 |
 | Memory & Long-Context Coherence | 17 |
 | Consistency / Controllability / Constraint Following | 24 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 71 |
-| Datasets / Surveys / Resources | 31 |
+| Evaluation / Benchmarks / Metrics | 72 |
+| Datasets / Surveys / Resources | 32 |
 | Open-source Projects (No Paper Required) | 10 |
 
 ## Papers and Projects
@@ -90,6 +90,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Orchestrated Reality: From Role-Play to Living, Playable Game Worlds -- LLM-Driven World Simulation as a Parameterized-Action POMDP | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.16014) | - | - | - | sandbox, simulation |
 | IVIE: A Neuro-symbolic Approach to Incremental and Validated Generation of Interactive Fiction Worlds | ICCC 2026 (International Conference on Computational Creativity) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.13348) | - | - | - | sandbox, interactive |
 | BotDirector: Robot Storytelling Across the Symmetrical Reality with Multi-modal Interactions | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.03223) | - | - | - | sandbox, interactive |
 | World-State Transformations for Neuro-symbolic Interactive Storytelling | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.24719) | - | - | - | sandbox, interactive |
@@ -249,6 +250,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| CASPER in the Machine: Insights into Character Variety in LLM-Generated Stories | ACL 2026 (Annual Meeting of the Association for Computational Linguistics) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.22454) | - | - | - | benchmark, evaluation |
 | NEST: Narrative Event Structures in Time for Long Video Understanding | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.19706) | - | - | - | benchmark, narrative-understanding |
 | NarrativeWorldBench: A Frontier-Saturated Benchmark and a Latent World Model for Long-Horizon Co-Creative Audio Drama | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.17391) | - | - | - | benchmark, audio-story |
 | Do Large Language Models Always Tell The Same Stories? | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.17350) | - | - | - | benchmark, diversity |
@@ -326,6 +328,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| AI Fiction in the Wild | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.22748) | - | - | - | resource, fiction-generation |
 | Characterizing Narrative Content in Web-scale LLM Pretraining Data | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.19468) | - | - | - | dataset, resource |
 | OmniVideo-100K: A Dataset for Audio-Visual Reasoning through Structured Scripts and Evidence Chains | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.14702) | - | [Code](https://github.com/MiG-NJU/OmniVideo-100K) | - | dataset, audio-video |
 | CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.09639) | [Project](https://aliothchen.github.io/projects/CineDance/) | - | - | dataset, audio-video |
