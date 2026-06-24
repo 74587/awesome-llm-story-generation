@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **271**
+- Total entries: **273**
 - Categories: **10**
-- Last verified: **2026-06-23**
+- Last verified: **2026-06-24**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -38,7 +38,7 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Memory & Long-Context Coherence | 17 |
 | Consistency / Controllability / Constraint Following | 24 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 72 |
+| Evaluation / Benchmarks / Metrics | 74 |
 | Datasets / Surveys / Resources | 32 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -250,6 +250,8 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Same Lesson, Different Story: Cross-Lingual Reconstruction of Cultural Narratives in Large Language Models | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.24610) | - | - | - | benchmark, evaluation |
+| Do Language Models Pass the Bechdel Test? Auditing Gender Biases in LLM-Generated Screenplays | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.24022) | - | - | - | benchmark, screenplay |
 | CASPER in the Machine: Insights into Character Variety in LLM-Generated Stories | ACL 2026 (Annual Meeting of the Association for Computational Linguistics) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.22454) | - | - | - | benchmark, evaluation |
 | NEST: Narrative Event Structures in Time for Long Video Understanding | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.19706) | - | - | - | benchmark, narrative-understanding |
 | NarrativeWorldBench: A Frontier-Saturated Benchmark and a Latent World Model for Long-Horizon Co-Creative Audio Drama | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.17391) | - | - | - | benchmark, audio-story |
