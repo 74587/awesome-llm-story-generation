@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **273**
+- Total entries: **278**
 - Categories: **10**
-- Last verified: **2026-06-24**
+- Last verified: **2026-06-25**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -34,8 +34,8 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Planning / Decomposition for Story Generation | 21 |
 | Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 17 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 57 |
-| Memory & Long-Context Coherence | 17 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 59 |
+| Memory & Long-Context Coherence | 20 |
 | Consistency / Controllability / Constraint Following | 24 |
 | Refinement / Self-Critique / Iterative Editing | 15 |
 | Evaluation / Benchmarks / Metrics | 74 |
@@ -113,6 +113,8 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| FreeStory: Training-Free Character Consistency for Free-Form Visual Storytelling | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.25079) | - | - | - | multimodal, visual-story |
+| DramaDirector: Geometry-Guided Short Drama Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.24107) | - | [Code](https://github.com/iLearn-Lab/DramaDirector) | - | multimodal, video-story |
 | DataMagic: Transforming Tabular Data into Data Insight Video | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.20388) | [Project](https://datamagic-home.github.io/) | - | - | multimodal, data-story |
 | LooseControlVideo: Directorial Video Control using Spatial Blocking | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.19495) | [Project](https://shariqfarooq123.github.io/LooseControlVideo/) | - | - | multimodal, video-story |
 | Reference-Driven Multi-Speaker Audio Scene Generation from In-the-Wild Priors | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.19325) | [Project](https://finmickey.github.io/scena/) | - | - | multimodal, audio-story |
@@ -176,6 +178,9 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Staying In Character: Perspective-Bounded Memory For Book-Based Role-Playing Agents | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.25632) | - | - | - | long-context, role-playing |
+| Not All Claims Are Equally Risky: FACTOR for Adaptive Verification in Factual Long-Form Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.22474) | - | - | - | long-context, factuality |
+| Storyline Trees: Hierarchical Representations for Long-Form Narratives | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.20900) | - | - | - | long-context, narrative-representation |
 | IS-CoT: Breaking the Long-form Generation Collapse via Interleaved Structural Thinking | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.09709) | - | - | - | long-context, generation |
 | Narrative Knowledge Weaver: Narrative-Centric Retrieval-Augmented Reasoning for Long-Form Text Understanding | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.05724) | - | - | - | long-context, narrative-understanding |
 | POLARIS: Guiding Small Models to Write Long Stories | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.04095) | - | - | - | long-context, generation |
