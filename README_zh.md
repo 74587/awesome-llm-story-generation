@@ -2,9 +2,9 @@
 
 聚焦 2022 年以来的故事/小说/剧本生成研究，按方法分类，优先保证论文链接与信息准确。
 
-- 当前条目数: **278**
+- 当前条目数: **285**
 - 分类数量: **10**
-- 最近核对日期: **2026-06-25**
+- 最近核对日期: **2026-06-26**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 ## 目录
@@ -34,11 +34,11 @@
 | Planning / Decomposition for Story Generation | 21 |
 | Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 17 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 59 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 63 |
 | Memory & Long-Context Coherence | 20 |
-| Consistency / Controllability / Constraint Following | 24 |
-| Refinement / Self-Critique / Iterative Editing | 15 |
-| Evaluation / Benchmarks / Metrics | 74 |
+| Consistency / Controllability / Constraint Following | 25 |
+| Refinement / Self-Critique / Iterative Editing | 16 |
+| Evaluation / Benchmarks / Metrics | 75 |
 | Datasets / Surveys / Resources | 32 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -113,8 +113,12 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Look-Before-Move: Narrative-Grounded World Visual Attention in Dynamic 3D Story Worlds | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.26964) | - | - | - | multimodal, visual-story |
+| LCG: Long-Context Consistent Image Generation with Sparse Relational Attention | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.26171) | - | - | - | multimodal, visual-story |
 | FreeStory: Training-Free Character Consistency for Free-Form Visual Storytelling | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.25079) | - | - | - | multimodal, visual-story |
 | DramaDirector: Geometry-Guided Short Drama Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.24107) | - | [Code](https://github.com/iLearn-Lab/DramaDirector) | - | multimodal, video-story |
+| Towards Error-Free Long Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.22370) | - | - | - | multimodal, video-story |
+| GroundShot: Visually Consistent Multi-Shot Long Video Generation via Entity-Grounded Shot Scheduling | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.20799) | - | - | - | multimodal, video-story |
 | DataMagic: Transforming Tabular Data into Data Insight Video | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.20388) | [Project](https://datamagic-home.github.io/) | - | - | multimodal, data-story |
 | LooseControlVideo: Directorial Video Control using Spatial Blocking | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.19495) | [Project](https://shariqfarooq123.github.io/LooseControlVideo/) | - | - | multimodal, video-story |
 | Reference-Driven Multi-Speaker Audio Scene Generation from In-the-Wild Priors | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.19325) | [Project](https://finmickey.github.io/scena/) | - | - | multimodal, audio-story |
@@ -204,6 +208,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Improving General Role-Playing Agents via Psychology-Grounded Reasoning and Role-Aware Policy Optimization | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.27025) | - | - | - | controllability, character-consistency |
 | Steering Emotional Dynamics for Art Therapy: Controllable Narrative Script Generation through Hierarchically Guided LLM Agents | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.16481) | - | - | - | controllability, screenplay |
 | Constrained Semantic Decompression in LLMs through Persian Proverb-Conditioned Story Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.12599) | - | - | - | controllability, story-generation |
 | Children's English Reading Story Generation via Supervised Fine-Tuning of Compact LLMs with Controllable Difficulty and Safety | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.13709) | - | - | - | controllability, consistency |
@@ -234,6 +239,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| OPERA: Aligning Open-Ended Reasoning via Objective Perplexity-based Reinforcement Learning | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.25757) | - | [Code](https://github.com/pangpang-xuan/OPERA) | - | refinement, creative-writing |
 | StoryLens: Preference-Aligned Story Rewriting via Context-Aware Narrative Enrichment | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28073) | - | - | - | refinement, revision |
 | DTO: a Differentiable Training Objective for Effective Counterfactual Story Rewriting | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.24885) | - | - | - | refinement, revision |
 | R2-Write: Reflection and Revision for Open-Ended Writing with Deep Reasoning | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.03004) | - | - | - | refinement, revision |
@@ -255,6 +261,7 @@
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Floor Raiser or Ceiling Limiter? Differential Storytelling Outcomes with a Child-Centric GenAI System Across Individual Differences | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.27067) | - | - | - | benchmark, evaluation |
 | Same Lesson, Different Story: Cross-Lingual Reconstruction of Cultural Narratives in Large Language Models | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.24610) | - | - | - | benchmark, evaluation |
 | Do Language Models Pass the Bechdel Test? Auditing Gender Biases in LLM-Generated Screenplays | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.24022) | - | - | - | benchmark, screenplay |
 | CASPER in the Machine: Insights into Character Variety in LLM-Generated Stories | ACL 2026 (Annual Meeting of the Association for Computational Linguistics) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.22454) | - | - | - | benchmark, evaluation |
