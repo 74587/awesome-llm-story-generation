@@ -2,9 +2,9 @@
 
 聚焦 2022 年以来的故事/小说/剧本生成研究，按方法分类，优先保证论文链接与信息准确。
 
-- 当前条目数: **285**
+- 当前条目数: **286**
 - 分类数量: **10**
-- 最近核对日期: **2026-06-26**
+- 最近核对日期: **2026-06-28**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 ## 目录
@@ -34,7 +34,7 @@
 | Planning / Decomposition for Story Generation | 21 |
 | Agent Collaboration for Story Writing | 6 |
 | Sandbox / World Simulation Narrative Generation | 17 |
-| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 63 |
+| Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 64 |
 | Memory & Long-Context Coherence | 20 |
 | Consistency / Controllability / Constraint Following | 25 |
 | Refinement / Self-Critique / Iterative Editing | 16 |
@@ -118,6 +118,7 @@
 | FreeStory: Training-Free Character Consistency for Free-Form Visual Storytelling | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.25079) | - | - | - | multimodal, visual-story |
 | DramaDirector: Geometry-Guided Short Drama Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.24107) | - | [Code](https://github.com/iLearn-Lab/DramaDirector) | - | multimodal, video-story |
 | Towards Error-Free Long Video Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.22370) | - | - | - | multimodal, video-story |
+| UnityShots: Memory-Driven Multi-Shot Audio-Video Generation with Boundary-Aware Gating | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.21661) | [Project](https://jackailab.github.io/Projects/UnityShots/) | [Code](https://github.com/JIA-Lab-research/UnityShots) | - | multimodal, audio-video |
 | GroundShot: Visually Consistent Multi-Shot Long Video Generation via Entity-Grounded Shot Scheduling | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.20799) | - | - | - | multimodal, video-story |
 | DataMagic: Transforming Tabular Data into Data Insight Video | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.20388) | [Project](https://datamagic-home.github.io/) | - | - | multimodal, data-story |
 | LooseControlVideo: Directorial Video Control using Spatial Blocking | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.19495) | [Project](https://shariqfarooq123.github.io/LooseControlVideo/) | - | - | multimodal, video-story |
