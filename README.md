@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **286**
+- Total entries: **288**
 - Categories: **10**
-- Last verified: **2026-06-28**
+- Last verified: **2026-06-29**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -36,7 +36,7 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 | Sandbox / World Simulation Narrative Generation | 17 |
 | Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 64 |
 | Memory & Long-Context Coherence | 20 |
-| Consistency / Controllability / Constraint Following | 25 |
+| Consistency / Controllability / Constraint Following | 27 |
 | Refinement / Self-Critique / Iterative Editing | 16 |
 | Evaluation / Benchmarks / Metrics | 75 |
 | Datasets / Surveys / Resources | 32 |
@@ -210,7 +210,9 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Improving General Role-Playing Agents via Psychology-Grounded Reasoning and Role-Aware Policy Optimization | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.27025) | - | - | - | controllability, character-consistency |
+| DeSRPA: Decoupled Speech Role-Playing Agent via Inference-Time Intervention | INTERSPEECH 2026 (Conference of the International Speech Communication Association) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.17669) | - | - | - | controllability, character-consistency |
 | Steering Emotional Dynamics for Art Therapy: Controllable Narrative Script Generation through Hierarchically Guided LLM Agents | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.16481) | - | - | - | controllability, screenplay |
+| Creative Collision: Directorial Persona Steering and Competition in Large Language Models | ICML Workshop 2026 (Human-AI Co-Creativity Workshop) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.16240) | - | - | - | controllability, style-control |
 | Constrained Semantic Decompression in LLMs through Persian Proverb-Conditioned Story Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.12599) | - | - | - | controllability, story-generation |
 | Children's English Reading Story Generation via Supervised Fine-Tuning of Compact LLMs with Controllable Difficulty and Safety | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.13709) | - | - | - | controllability, consistency |
 | UniCreative: Unifying Long-form Logic and Short-form Sparkle via Reference-Free Reinforcement Learning | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.05517) | - | - | - | controllability, consistency |
