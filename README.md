@@ -2,9 +2,9 @@
 
 A curated list of story/novel/script generation research in the LLM era (2022-present), organized by method with strict link verification.
 
-- Total entries: **288**
+- Total entries: **295**
 - Categories: **10**
-- Last verified: **2026-06-29**
+- Last verified: **2026-09-22**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Contents
@@ -31,14 +31,14 @@ A curated list of story/novel/script generation research in the LLM era (2022-pr
 
 | Category | Entries |
 | --- | ---: |
-| Planning / Decomposition for Story Generation | 21 |
-| Agent Collaboration for Story Writing | 6 |
+| Planning / Decomposition for Story Generation | 22 |
+| Agent Collaboration for Story Writing | 7 |
 | Sandbox / World Simulation Narrative Generation | 17 |
 | Multimodal Story Generation (Text-Image/Video/Comic/Audio) | 64 |
 | Memory & Long-Context Coherence | 20 |
-| Consistency / Controllability / Constraint Following | 27 |
-| Refinement / Self-Critique / Iterative Editing | 16 |
-| Evaluation / Benchmarks / Metrics | 75 |
+| Consistency / Controllability / Constraint Following | 29 |
+| Refinement / Self-Critique / Iterative Editing | 17 |
+| Evaluation / Benchmarks / Metrics | 77 |
 | Datasets / Surveys / Resources | 32 |
 | Open-source Projects (No Paper Required) | 10 |
 
@@ -72,12 +72,14 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | End-to-End Story Plot Generator | ArXiv 2023 (arXiv preprint) | 2023-10 | [arXiv](https://arxiv.org/abs/2310.08796) | - | - | ![citation](https://img.shields.io/badge/citation-5-0A66C2) | planning, narrative-structure |
 | The Next Chapter: A Study of Large Language Models in Storytelling | ArXiv 2023 (arXiv preprint) | 2023-01 | [arXiv](https://arxiv.org/abs/2301.09790) | - | - | - | planning, narrative-structure |
 | DOC: Improving Long Story Coherence With Detailed Outline Control | ArXiv 2022 (arXiv preprint) | 2022-12 | [arXiv](https://arxiv.org/abs/2212.10077) | - | - | - | planning, narrative-structure |
+| Little Red Riding Hood Goes around the Globe: Crosslingual Story Planning and Generation with Large Language Models | LREC-COLING 2024 (LREC-COLING) | 2022-12 | [Published](https://aclanthology.org/2024.lrec-main.929/) | - | - | - | planning, narrative-structure |
 
 <a id="agent-collaboration"></a>
 ### Agent Collaboration for Story Writing
 
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| From Personas to Plot: Character-Grounded Multi-Agent Story Generation for Long-Form Narratives | ArXiv 2026 (arXiv preprint) | 2026-07 | [arXiv](https://arxiv.org/abs/2607.00918) | - | - | - | multi-agent, collaboration |
 | Improving Collaborative Storytelling with a Multi-Agent Framework Based on Large Language Models | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.29625) | - | - | - | multi-agent, collaboration |
 | Collaborative Multi-Agent Scripts Generation for Enhancing Imperfect-Information Reasoning in Murder Mystery Games | ACL Findings 2026 (Findings of ACL) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.11741) | - | - | - | multi-agent, collaboration |
 | A Cognitive Writing Perspective for Constrained Long-Form Text Generation | ArXiv 2025 (arXiv preprint) | 2025-02 | [arXiv](https://arxiv.org/abs/2502.12568) | - | [Code](https://github.com/KaiyangWan/CogWriter) | ![citation](https://img.shields.io/badge/citation-1-0A66C2) | multi-agent, collaboration |
@@ -215,10 +217,12 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | Creative Collision: Directorial Persona Steering and Competition in Large Language Models | ICML Workshop 2026 (Human-AI Co-Creativity Workshop) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.16240) | - | - | - | controllability, style-control |
 | Constrained Semantic Decompression in LLMs through Persian Proverb-Conditioned Story Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.12599) | - | - | - | controllability, story-generation |
 | Children's English Reading Story Generation via Supervised Fine-Tuning of Compact LLMs with Controllable Difficulty and Safety | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.13709) | - | - | - | controllability, consistency |
+| ConWriter: Transition-Constrained Stateful Long-Form Story Generation with Lightweight Neuro-Symbolic Consistency Control | EMNLP Findings 2026 (accepted; arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2608.05169) | - | [Code](https://github.com/jindongli-Ai/ConWriter) | - | controllability, consistency |
 | UniCreative: Unifying Long-form Logic and Short-form Sparkle via Reference-Free Reinforcement Learning | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.05517) | - | - | - | controllability, consistency |
 | Noise Steering for Controlled Text Generation: Improving Diversity and Reading-Level Fidelity in Arabic Educational Story Generation | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.03380) | - | - | - | controllability, consistency |
 | Preconditioned Test-Time Adaptation for Out-of-Distribution Debiasing in Narrative Generation | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.13683) | - | - | - | controllability, consistency |
 | TaleFrame: An Interactive Story Generation System with Fine-Grained Control and Large Language Models | ArXiv 2025 (arXiv preprint) | 2025-12 | [arXiv](https://arxiv.org/abs/2512.02402) | - | - | - | controllability, interactive |
+| SRS-Stories: Vocabulary-constrained multilingual story generation for language learning | EMNLP Industry Track 2025 (Industry Track) | 2025-12 | [Published](https://aclanthology.org/2025.emnlp-industry.44/) | - | - | - | controllability, consistency |
 | SCORE: Story Coherence and Retrieval Enhancement for AI Narratives | ArXiv 2025 (arXiv preprint) | 2025-03 | [arXiv](https://arxiv.org/abs/2503.23512) | - | - | ![citation](https://img.shields.io/badge/citation-17-0A66C2) | controllability, retrieval |
 | Whose story is it? Personalizing story generation by inferring author styles | ArXiv 2025 (arXiv preprint) | 2025-02 | [arXiv](https://arxiv.org/abs/2502.13028) | - | - | ![citation](https://img.shields.io/badge/citation-1-0A66C2) | controllability, consistency |
 | Pastiche Novel Generation Creating: Fan Fiction You Love in Your Favorite Author's Style | ArXiv 2025 (arXiv preprint) | 2025-02 | [arXiv](https://arxiv.org/abs/2502.15616) | - | - | ![citation](https://img.shields.io/badge/citation-0-0A66C2) | controllability, consistency |
@@ -243,6 +247,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | Title | Venue | Date | Paper | Project | Code | Citations | Tags |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | OPERA: Aligning Open-Ended Reasoning via Objective Perplexity-based Reinforcement Learning | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2606.25757) | - | [Code](https://github.com/pangpang-xuan/OPERA) | - | refinement, creative-writing |
+| StorySpark: Module-wise Evolutionary Search for Story Premise Generation | ArXiv 2026 (arXiv preprint) | 2026-06 | [arXiv](https://arxiv.org/abs/2608.12336) | - | - | - | refinement, revision |
 | StoryLens: Preference-Aligned Story Rewriting via Context-Aware Narrative Enrichment | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.28073) | - | - | - | refinement, revision |
 | DTO: a Differentiable Training Objective for Effective Counterfactual Story Rewriting | ArXiv 2026 (arXiv preprint) | 2026-05 | [arXiv](https://arxiv.org/abs/2605.24885) | - | - | - | refinement, revision |
 | R2-Write: Reflection and Revision for Open-Ended Writing with Deep Reasoning | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.03004) | - | - | - | refinement, revision |
@@ -311,7 +316,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | StoryScope: Investigating idiosyncrasies in AI fiction | ArXiv 2026 (arXiv preprint) | 2026-04 | [arXiv](https://arxiv.org/abs/2604.03136) | - | - | - | benchmark, evaluation |
 | Humans vs Vision-Language Models: A Unified Measure of Narrative Coherence | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.25537) | - | - | - | benchmark, evaluation |
 | Creative Convergence or Imitation? Genre-Specific Homogeneity in LLM-Generated Chinese Literature | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.14430) | - | - | - | benchmark, evaluation |
-| Lost in Stories: Consistency Bugs in Long Story Generation by LLMs | ArXiv 2026 (arXiv preprint) | 2026-03 | [arXiv](https://arxiv.org/abs/2603.05890) | [Project](https://picrew.github.io/constory-bench.github.io/) | [Code](https://github.com/Picrew/ConStory-Bench) | - | benchmark, evaluation |
+| Lost in Stories: Consistency Bugs in Long Story Generation by LLMs | ACL Findings 2026 (Findings of ACL) | 2026-03 | [Published](https://aclanthology.org/2026.findings-acl.410/) | [Project](https://picrew.github.io/constory-bench.github.io/) | [Code](https://github.com/Picrew/ConStory-Bench) | - | benchmark, evaluation |
 | LLMs Exhibit Significantly Lower Uncertainty in Creative Writing Than Professional Writers | ArXiv 2026 (arXiv preprint) | 2026-02 | [arXiv](https://arxiv.org/abs/2602.16162) | - | - | - | benchmark, evaluation |
 | Do readers prefer AI-generated Italian short stories? | ArXiv 2026 (arXiv preprint) | 2026-01 | [arXiv](https://arxiv.org/abs/2601.17363) | - | - | - | benchmark, evaluation |
 | STAGE: A Full-Screenplay Benchmark for Reasoning over Evolving Storie | ArXiv 2026 (arXiv preprint) | 2026-01 | [arXiv](https://arxiv.org/abs/2601.08510) | - | - | - | benchmark, screenplay |
@@ -319,6 +324,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | Evaluating LLM Story Generation through Large-scale Network Analysis of Social Structures | ArXiv 2025 (arXiv preprint) | 2025-10 | [arXiv](https://arxiv.org/abs/2510.18932) | - | - | - | benchmark, evaluation |
 | EvolvR: Self-Evolving Pairwise Reasoning for Story Evaluation to Enhance Generation | ArXiv 2025 (arXiv preprint) | 2025-08 | [arXiv](https://arxiv.org/abs/2508.06046) | - | - | - | benchmark, evaluation |
 | LitBench: A Benchmark and Dataset for Reliable Evaluation of Creative Writing | ArXiv 2025 (arXiv preprint) | 2025-07 | [arXiv](https://arxiv.org/abs/2507.00769) | - | - | - | benchmark, dataset |
+| WebNovelBench: Placing LLM Novelists on the Web Novel Distribution | EACL Findings 2026 (Findings of EACL) | 2025-05 | [Published](https://aclanthology.org/2026.findings-eacl.94/) | - | [Code](https://github.com/OedonLestrange42/webnovelbench) | - | benchmark, evaluation |
 | WritingBench: A Comprehensive Benchmark for Generative Writing | ArXiv 2025 (arXiv preprint) | 2025-03 | [arXiv](https://arxiv.org/abs/2503.05244) | - | - | - | benchmark, evaluation |
 | CoKe: Customizable Fine-Grained Story Evaluation via Chain-of-Keyword Rationalization | ArXiv 2025 (arXiv preprint) | 2025-03 | [arXiv](https://arxiv.org/abs/2503.17136) | - | - | ![citation](https://img.shields.io/badge/citation-0-0A66C2) | benchmark, evaluation |
 | LongEval: A Comprehensive Analysis of Long-Text Generation Through a Plan-based Paradigm | ArXiv 2025 (arXiv preprint) | 2025-02 | [arXiv](https://arxiv.org/abs/2502.19103) | - | [Code](https://github.com/Wusiwei0410/LongEval) | ![citation](https://img.shields.io/badge/citation-4-0A66C2) | benchmark, evaluation |
@@ -334,6 +340,7 @@ Note: `Project` stores project/demo links; `Code` stores verified GitHub reposit
 | Learning Personalized Alignment for Evaluating Open-ended Text Generation | EMNLP 2024 (Conference on Empirical Methods in Natural Language Processing) | 2023-10 | [arXiv](https://arxiv.org/abs/2310.03304) | - | - | ![citation](https://img.shields.io/badge/citation-11-0A66C2) | benchmark, evaluation |
 | A Confederacy of Models: a Comprehensive Evaluation of LLMs on Creative Writing | EMNLP Findings 2023 (Findings of EMNLP) | 2023-10 | [arXiv](https://arxiv.org/abs/2310.08433) | - | - | ![citation](https://img.shields.io/badge/citation-83-0A66C2) | benchmark, evaluation |
 | Art or Artifice? Large Language Models and the False Promise of Creativity | CHI 2023 (Conference on Human Factors in Computing Systems) | 2023-09 | [arXiv](https://arxiv.org/abs/2309.14556) | - | - | ![citation](https://img.shields.io/badge/citation-136-0A66C2) | benchmark, evaluation |
+| StoryBench: A Multifaceted Benchmark for Continuous Story Visualization | NeurIPS Datasets and Benchmarks Track 2023 (Datasets and Benchmarks Track) | 2023-08 | [Published](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f63f5fbed1a4ef08c857c5f377b5d33a-Abstract-Datasets_and_Benchmarks.html) | - | [Code](https://github.com/google/storybench) | - | benchmark, evaluation |
 | HAUSER: Towards Holistic and Automatic Evaluation of Simile Generation | ACL 2023 (Annual Meeting of the Association for Computational Linguistics) | 2023-06 | [arXiv](https://arxiv.org/abs/2306.07554) | - | - | ![citation](https://img.shields.io/badge/citation-6-0A66C2) | benchmark, evaluation |
 | Can Large Language Models Be an Alternative to Human Evaluations? | ACL 2023 (Annual Meeting of the Association for Computational Linguistics) | 2023-05 | [arXiv](https://arxiv.org/abs/2305.01937) | - | - | ![citation](https://img.shields.io/badge/citation-634-0A66C2) | benchmark, evaluation |
 | DeltaScore: Evaluating Story Generation with Differentiating Perturbations | EMNLP Findings 2023 (Findings of EMNLP) | 2023-03 | [arXiv](https://arxiv.org/abs/2303.08991) | - | - | ![citation](https://img.shields.io/badge/citation-4-0A66C2) | benchmark, evaluation |
